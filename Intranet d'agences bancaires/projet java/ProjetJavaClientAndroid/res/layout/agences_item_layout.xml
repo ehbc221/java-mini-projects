@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    
+    <TextView 
+        android:text="Num. Agence" 
+        android:id="@+id/txtNumAgence"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="25px" />
+		
+	<TextView 
+	    android:text="Libelé" android:id="@+id/txtLibele"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="150px"
+		android:maxWidth="100px" />
+	
+	<TextView 
+	    android:text="Adresse" android:id="@+id/txtAdresse"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="50px"
+		android:maxWidth="100px" />		
+
+</LinearLayout>

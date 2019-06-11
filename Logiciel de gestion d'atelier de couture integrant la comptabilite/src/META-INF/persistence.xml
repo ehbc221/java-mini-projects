@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+  <persistence-unit name="JCouturePU" transaction-type="RESOURCE_LOCAL">
+    <provider>oracle.toplink.essentials.PersistenceProvider</provider>
+    <class>com.bash.jcouture.entities.model.Mesure</class>
+    <class>com.bash.jcouture.entities.model.MouvementCompte</class>
+    <class>com.bash.jcouture.entities.model.TypeArticle</class>
+    <class>com.bash.jcouture.entities.model.Client</class>
+    <class>com.bash.jcouture.entities.model.Compte</class>
+    <class>com.bash.jcouture.entities.model.Modele</class>
+    <class>com.bash.jcouture.entities.model.Article</class>
+    <class>com.bash.jcouture.entities.model.Sequence</class>
+    <class>com.bash.jcouture.entities.model.PayementMode</class>
+    <class>com.bash.jcouture.entities.model.Facture</class>
+    <class>com.bash.jcouture.entities.model.CategorieArticle</class>
+    <class>com.bash.jcouture.entities.model.Report</class>
+    <class>com.bash.jcouture.entities.model.NewEntity</class>
+    <properties>
+      <property name="toplink.jdbc.user" value="root"/>
+      <property name="toplink.jdbc.password" value="une"/>
+      <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/couturedb"/>
+      <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="toplink.ddl-generation" value="create-tables"/>
+    </properties>
+  </persistence-unit>
+</persistence>

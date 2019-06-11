@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Android</title>
+	<link type="text/css" rel="Stylesheet" href="css/knacss.css"/>
+	<link type="text/css" rel="Stylesheet" href="css/shCore.css"/>
+	<link type="text/css" rel="Stylesheet" href="css/shThemeDjango.css"/>
+	
+	<style type="text/css">
+		#geolocation{
+			border:1px dashed #A9A9A9;
+			border-radius:7px;
+			padding:.5em;
+			background:#DDDDDD;
+			display:block;
+		}
+		
+		h1{
+			font-family:Roboto, Arial, sans-serif;
+			border-bottom:1px solid orange;
+			color:orange;
+		}
+
+        body .syntaxhighlighter .line {
+            white-space: pre-wrap!important;
+        }
+	
+	</style>
+	<script src="scripts/jquery.js" type="text/javascript"></script>
+	<script src="syntaxhighlighter/shCore.js" type="text/javascript"></script>
+	<script src="syntaxhighlighter/shAutoloader.js" type="text/javascript"></script>
+</head>
+<body>
+<h1>Essai de l'interface Javascript</h1>
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+<input type="button" value="draw ressource image" onClick="getImg('7f020001');" />
+<input id="texter" type="text" placeholder="enter text to notify"/>
+<input type="button" value="notify" onClick="Notif();" />
+<input type="button" value="date" onClick="Android.selectDate('getDate');" />
+<div id="geolocation"></div>
+<script type="syntaxhighlighter" class="syntaxhighlighter brush: js"><![CDATA[
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
+
+    function getImg(str){
+    	var base_string = "";
+    	base_string = Android.getRImages(parseInt(str,16));
+    	obj = JSON.parse(base_string);
+    	for(i in obj){
+    		var ele = document.createElement("img");
+    		ele.setAttribute("src","data:image/png:base64,"+obj[i]);
+    		document.querySelector("body").appendChild(ele);
+    	}
+    }
+    
+    function Notif(){
+    	Android.createNotify(document.querySelector("#texter").value);
+    }
+    
+    function GeoLoc(){
+    	var base_string = "";
+    	base_string = Android.getGeoLocation();
+    	var obj = JSON.parse(base_string);
+    	var data = "";
+    	for(i in obj){
+    		data+="<b>"+i+" : </b>"+obj[i]+"<br/>";
+    	}
+    	document.querySelector("#geolocation").innerHTML=data;
+    }
+    
+	function getDate(year,month,day){
+    	Android.showToast(date);
+    }
+]]></script>
+<script type="text/javascript">
+	var t = setInterval(GeoLoc,1000);
+
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
+
+    function getImg(str){
+    	var base_string = "";
+    	base_string = Android.getRImages(parseInt(str,16));
+    	obj = JSON.parse(base_string);
+    	for(i in obj){
+    		var ele = document.createElement("img");
+    		ele.setAttribute("src","data:image/png:base64,"+obj[i]);
+    		document.querySelector("body").appendChild(ele);
+    	}
+    }
+    
+    function Notif(){
+    	Android.createNotify(document.querySelector("#texter").value);
+    }
+    
+    function GeoLoc(){
+    	var base_string = "";
+    	base_string = Android.getGeoLocation();
+    	var obj = JSON.parse(base_string);
+    	var data = "";
+    	for(i in obj){
+    		data+="<b>"+i+" : </b>"+obj[i]+"<br/>";
+    	}
+    	document.querySelector("#geolocation").innerHTML=data;
+    }
+    
+	function getDate(year,month,day){
+    	Android.showToast(day+"-"+month+"-"+year);
+    }
+    
+    $(document).ready(function(){
+        function path() {
+          var args = arguments,
+              result = []
+              ;
+               
+          for(var i = 0; i < args.length; i++)
+              result.push(args[i].replace('@', 'syntaxhighlighter/'));
+               
+          return result
+        }
+     
+    SyntaxHighlighter.autoloader.apply(null, path(
+      'applescript            @shBrushAppleScript.js',
+      'actionscript3 as3      @shBrushAS3.js',
+      'bash shell             @shBrushBash.js',
+      'coldfusion cf          @shBrushColdFusion.js',
+      'cpp c                  @shBrushCpp.js',
+      'c# c-sharp csharp      @shBrushCSharp.js',
+      'css                    @shBrushCss.js',
+      'delphi pascal          @shBrushDelphi.js',
+      'diff patch pas         @shBrushDiff.js',
+      'erl erlang             @shBrushErlang.js',
+      'groovy                 @shBrushGroovy.js',
+      'java                   @shBrushJava.js',
+      'jfx javafx             @shBrushJavaFX.js',
+      'js jscript javascript  @shBrushJScript.js',
+      'perl pl                @shBrushPerl.js',
+      'php                    @shBrushPhp.js',
+      'text plain             @shBrushPlain.js',
+      'py python              @shBrushPython.js',
+      'ruby rails ror rb      @shBrushRuby.js',
+      'sass scss              @shBrushSass.js',
+      'scala                  @shBrushScala.js',
+      'sql                    @shBrushSql.js',
+      'vb vbnet               @shBrushVb.js',
+      'xml xhtml xslt html    @shBrushXml.js'
+    ));
+
+  	SyntaxHighlighter.all();
+
+    var shLineWrap = function(){
+                                $('.syntaxhighlighter').each(function(){
+                                        // Fetch
+                                        var $sh = $(this),
+                                                $gutter = $sh.find('td.gutter'),
+                                                $code = $sh.find('td.code')
+                                        ;
+                                        // Cycle through lines
+                                        $gutter.children('.line').each(function(i){
+                                                // Fetch
+                                                var $gutterLine = $(this),
+                                                        $codeLine = $code.find('.line:nth-child('+(i+1)+')')
+                                                ;
+                                                // Fetch height
+                                                var height = $codeLine.height()||0;
+                                                if ( !height ) {
+                                                        height = 'auto';
+                                                }
+                                                else {
+                                                        height = height += 'px';
+                                                }
+                                                // Copy height over
+                                                $gutterLine.height(height+' !important');
+                                                console.debug($gutterLine.height(), height, $gutterLine.text(), $codeLine);
+                                        });
+                                });
+                        };
+                        
+                        // Line wrap back when syntax highlighter has done it's stuff
+                        var shLineWrapWhenReady = function(){
+                                if ( $('.syntaxhighlighter').length === 0 ) {
+                                        setTimeout(shLineWrapWhenReady,800);
+                                }
+                                else {
+                                        shLineWrap();
+                                }
+                        };
+
+                        shLineWrapWhenReady();
+  });
+</script>
+</body>
+</html>

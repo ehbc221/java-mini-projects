@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestion Bancaire - Liste agences" 
+        android:textStyle="normal"
+        android:textSize="30px" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25px"
+        android:gravity="left"
+        android:text="Cliquez sur la ligne d'une agence pour créer un client pour cette agence"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:minHeight="150px" />
+    
+    <TextView android:text="Num. Agence" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="0px"
+		android:textStyle="bold" />
+    
+    <TextView
+        android:text="Libelé"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="-30px"
+        android:textStyle="bold" />
+    
+    <TextView android:text="Adresse"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="350px"
+		android:layout_marginTop="-33px"
+		android:textStyle="bold" />
+    
+    <ListView
+        android:id="@+id/listAgences1"
+        android:layout_width="wrap_content"
+        android:layout_height="224dp" />
+
+</LinearLayout>

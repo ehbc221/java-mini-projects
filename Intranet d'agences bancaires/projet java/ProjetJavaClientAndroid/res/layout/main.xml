@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestion Bancaire - Accueil" 
+        android:textStyle="bold"
+        android:textSize="25px" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="100px"
+        android:text="Cliquez sur le bouton menu pour Choisir une action à effectuer"
+        android:textSize="25px"
+        android:textStyle="italic" 
+        android:gravity="center"
+        android:id="@+id/txtIntro" />
+    
+    <EditText 
+        android:hint="Saisissez l'adresse ip du serveur"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAdresseIp"
+        />
+
+    <Button
+        android:id="@+id/btnConnexion"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="50px"
+        android:text="Se connecter" 
+        />
+        
+</LinearLayout>

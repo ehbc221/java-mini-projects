@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestion Bancaire - Ajout agence" 
+        android:textStyle="normal"
+        android:textSize="30px" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25px"
+        android:gravity="left"
+        android:text="Remplissez les champs du formulaire et cliquez sur Ajouter pour valider"
+        android:textSize="25px"
+        android:textStyle="italic" />
+    
+    <EditText
+        android:hint="Entrez le nom de l'agence"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtNomAgence"
+        android:layout_marginTop="25px" />
+    
+    <EditText
+        android:hint="Entrez l'adresse de l'agence"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtAdresseAgence"
+        android:layout_marginTop="25px" />
+
+    <Button
+        android:id="@+id/btnAjouter"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:text="Ajouter" android:layout_marginLeft="10px"/>
+    <Button
+        android:id="@+id/btnAnnuler"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="-75px"
+        android:clickable="true"
+        android:cursorVisible="true"
+        android:text="Annuler" />
+
+</LinearLayout>

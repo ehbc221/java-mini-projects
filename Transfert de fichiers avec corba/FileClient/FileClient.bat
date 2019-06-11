@@ -1,0 +1,1 @@
+start javaw FileClient -ORBInitialPort 2500

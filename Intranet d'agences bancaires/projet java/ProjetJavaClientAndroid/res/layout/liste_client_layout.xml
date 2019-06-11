@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestion Bancaire - Liste clients" 
+        android:textStyle="normal"
+        android:textSize="30px" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25px"
+        android:gravity="left"
+        android:text="Cliquez sur la ligne d'un client pour créer un compte pour ce client"
+        android:textSize="25px"
+        android:textStyle="italic"
+        android:minHeight="150px" />
+    
+    <TextView android:text="Num." 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="0px"
+		android:textStyle="bold" />
+    
+    <TextView
+        android:text="Nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="-33px"
+        android:textStyle="bold" />
+    
+    <TextView 
+        android:text="Prénom"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="160px"
+		android:layout_marginTop="-33px"
+		android:textStyle="bold" />
+    
+    <TextView 
+        android:text="Adresse"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="280px"
+		android:layout_marginTop="-33px"
+		android:textStyle="bold" />
+    
+    <TextView 
+        android:text="Agence"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="400px"
+		android:layout_marginTop="-33px"
+		android:textStyle="bold" />
+    
+    <ListView
+        android:id="@+id/listClients1"
+        android:layout_width="wrap_content"
+        android:layout_height="224dp" />
+
+</LinearLayout>

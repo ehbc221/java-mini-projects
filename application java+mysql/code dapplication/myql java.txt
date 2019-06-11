@@ -1,0 +1,135 @@
+
+
+
+---------------------------connecter-------------------------
+    Connection con;
+public Connecter(){
+    try {
+Class.forName("com.mysql.jdbc.Driver");
+System.out.println("chargement est reussie");
+} 
+catch(ClassNotFoundException e) {
+System.out.println(e);}
+
+try {
+con=DriverManager.getConnection("jdbc:mysql://localhost:3306/db","root","");}
+catch(SQLException e){System.out.println(e);}
+
+}
+Connection ObtenirConnextion(){return con;}
+
+--------------------------------gestion de ------------------------------
+//déclaration 
+ Statement stmn;
+    Connecter conn=new Connecter();
+    ResultSet Rs;
+    DefaultTableModel model = new DefaultTableModel();
+ 
+
+//initcomponent
+
+       
+model.addColumn("id");
+model.addColumn("nom");
+model.addColumn("prenom");
+model.addColumn("branche");
+model.addColumn("note");
+try {
+stmn=conn.ObtenirConnextion().createStatement();
+ResultSet res=stmn.executeQuery("Select * from student");
+while(res.next()){
+model.addRow(new Object[]{res.getString("id"),res.getString("Nom"),res.getString("prenom"),
+    res.getString("branche"),res.getString("note")});
+
+}
+}catch(Exception e){System.err.println(e);}
+
+tble.setModel(model);
+
+------------------------------------depalace( int i)----------------
+
+
+    private void deplace(int i){
+       try {     //i represente les ligne 
+     
+          txtid.setText(model.getValueAt (i, 0).toString());
+      // txttp.setSelectedItem(dt.getValueAt (i, 5).toString());
+        txtno.setText(model.getValueAt (i, 1).toString());
+        // txtb.setSelectedItem(dt.getValueAt (i, 2).toString());
+          txtpr.setText(model.getValueAt (i, 2).toString());
+      txtbr.setSelectedItem(model.getValueAt (i, 3).toString());
+      txtnot.setText(model.getValueAt (i, 4).toString());
+      
+       
+       }catch (Exception e){ JOptionPane.showMessageDialog(null,"erreur de deplacement de message !!!!! "+e.getMessage());}
+      }
+
+-----------------------------ajouter-----------------------------------------
+String id=txtid.getText();
+String nom=txtno.getText();
+String prenom=txtpr.getText();
+String branche=txtbr.getSelectedItem().toString();
+String note=txtnot.getText();
+String req="INSERT INTO student(id,Nom,prenom,branche,note)VALUES('"+id+
+        "','"+nom+"','"+prenom+"','"+branche+"','"+note+"')";
+try { stmn=conn.ObtenirConnextion().createStatement();
+//stm.executeQuery(req);
+stmn.executeUpdate(req);
+JOptionPane.showMessageDialog(null,"requete execute correctement");
+txtno.setText("");
+txtpr.setText("");txtbr.setSelectedItem(2);txtnot.setText("");
+}
+catch(SQLException e){System.err.println(e);
+JOptionPane.showMessageDialog(null,"veuillez changer le num id parce que est déja attribue pour un autre étudient ");
+}
+---------------------------table mouse click-------------------------------------
+try {  int i=tble.getSelectedRow();
+            deplace(i);
+            //sa si quant on choisir un nom dans le tableau il va afficher sur les fieldtext
+        }
+        catch (Exception e){JOptionPane.showMessageDialog(null,"erreur selectionne\n"+e.getMessage());          }
+-------------------------------------modofie---------------------------------------
+try { 
+            if (JOptionPane.showConfirmDialog (null,"confirmer la modification","modification",
+                    JOptionPane.YES_NO_OPTION) == JOptionPane.OK_OPTION) {
+
+                stmn.executeUpdate("UPDATE student SET Nom='"+txtpr.getText()+"',prenom='"+txtpr.getText()+
+                        "',branche='"+txtbr.getSelectedItem().toString()+"',note='"+txtnot.getText()+
+                        "' WHERE id= "+txtid.getText());
+                //afficher ();
+            } 
+        } catch (Exception e){JOptionPane.showMessageDialog(null,"erreur de modifier !!!!!!!");
+        System.err.println(e);}
+------------------------suuprimer-----------------------------------
+try {
+             if(JOptionPane.showConfirmDialog(null,"attention vous avez supprimer un etudient,est ce que tu et sure?"
+                     ,"supprimer etudient",JOptionPane.YES_NO_OPTION) == JOptionPane.OK_OPTION)
+         
+            if(txtid.getText().length() != 0){
+        stmn.executeUpdate("Delete From student where id = "+txtid.getText());
+             }//ca est pour recharger la list des stagiaire
+            else { JOptionPane.showMessageDialog(null,"veuillez remplire le champ id !");}
+        
+        }catch (Exception e){JOptionPane.showMessageDialog(null,"erreur de supprimer \n"+e.getMessage());} 
+       
+--------------------------------recherche ------------------------------
+ try {
+           model.setRowCount(0);// pour vider la list des client
+      {
+       Rs = stmn.executeQuery("Select * From student WHERE nom = '"+txtre.getText()+"'");
+       }while (Rs.next()){
+       
+       Object [] client ={Rs.getInt(1),Rs.getString(2),Rs.getString(3),Rs.getString(4),Rs.getInt(5)};
+     model.addRow(client);
+       } if (model.getRowCount () == 0){JOptionPane.showMessageDialog(null,"il y a aucun etudient");
+       
+       } else{ int i=0;
+       deplace(i);
+       }
+       
+       }catch (Exception e) { System.err.println(e);
+       JOptionPane.showMessageDialog(null,e.getMessage());
+       }
+--------------------
+
+ if (evt.getKeyCode()==KeyEvent.VK_ENTER) {}

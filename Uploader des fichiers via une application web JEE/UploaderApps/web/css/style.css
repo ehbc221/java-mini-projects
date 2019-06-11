@@ -1,0 +1,47 @@
+body {
+	font: 14px/1.5 helvetica-neue, helvetica, arial, san-serif;
+	padding:10px;
+}
+
+span{
+	font-size:10px;
+}
+h1 {
+	margin-top:0;
+}
+strong{
+	text-decoration:underline;
+}
+#btn,input{
+	background:#0a71d1;
+	font-weight: bold;
+	color:#fff;
+	border:1px solid white;
+	cursor: pointer;
+}
+#btn:hover{
+	color:#0a71d1;
+	background:#fff;
+	border:1px solid #0a71d1;
+}
+#btn{
+	margin: 20px;
+	border-radius: 2px;	
+    box-shadow: 1px 1px 10px black,
+                0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+#response{
+	margin: 20px;
+}
+#main {
+	width: 300px;
+	margin:auto;
+	background: #ececec;
+	padding: 20px 20px 0px 20px;
+	border: 1px solid #ccc;
+}
+#uploadFrame iframe{
+    height: 50px;
+    border:0px;
+}
+

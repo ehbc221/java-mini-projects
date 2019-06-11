@@ -1,0 +1,2501 @@
+<?xml version="1.0"?>
+<data>
+  <value type="dict" struct-name="db.workbench.Workbench">
+    <value type="string" key="_id">{4F876CEE-EE30-4FB2-92B3-14B2986F6A63}</value>
+    <value type="dict" struct-name="db.mysql.Catalog" key="catalog">
+      <value type="string" key="_id">{212E4FA9-82E1-4945-BCA5-293B32D994F5}</value>
+      <value type="list" content-type="string" content-struct-name="db.CharacterSet" key="characterSets" option="ref">
+        <value type="string">{43903B6E-F2D0-4529-9B67-E0717BF4EF9F}</value>
+        <value type="string">{3AC6FA9A-82A4-4F7A-98B9-1F12CFB202BF}</value>
+        <value type="string">{9D4131DD-68A4-40BC-9D3F-82B4F7FA17B1}</value>
+        <value type="string">{6ABFE754-D874-49FF-AC49-386F49B841AC}</value>
+        <value type="string">{E2E563B6-7240-4D2B-A665-CE22EBD29E9F}</value>
+        <value type="string">{AEFED982-F313-40D4-ABA9-11583190507F}</value>
+        <value type="string">{A4E5546A-E0F8-4601-9DC3-D39C7DE1FD72}</value>
+        <value type="string">{2F780E59-D0CF-4175-8473-C86D73B33ED6}</value>
+        <value type="string">{E986FF81-4A4E-4A5D-B792-8D70F05A1BDE}</value>
+        <value type="string">{41103BE4-2115-4129-A4F3-0EC70E1A7CA6}</value>
+        <value type="string">{9069C68C-56AA-40EA-9C14-1542D5226355}</value>
+        <value type="string">{A9BCA02E-A707-4832-A9A2-61F0A56F25C2}</value>
+        <value type="string">{091F9B2C-FC20-47D4-B7EC-E31EF07828FF}</value>
+        <value type="string">{FECE8C4D-B95C-4D06-B5E5-7C685B512607}</value>
+        <value type="string">{52DEA621-FBB4-4FC5-88C6-936CC3F53579}</value>
+        <value type="string">{FD0CE66F-4075-48FB-AF79-C75453274791}</value>
+        <value type="string">{AF1906F2-20B5-491C-8450-14F730DBECD8}</value>
+        <value type="string">{2BA9756D-C757-4770-B795-B1A4943359EC}</value>
+        <value type="string">{B5603A47-2936-4144-BA74-5D4B6959F47F}</value>
+        <value type="string">{A50D3C42-2BE0-49C7-A751-59ADDC334F01}</value>
+        <value type="string">{38416973-B84F-48DF-A766-01022A48B7CB}</value>
+        <value type="string">{FEDC8872-11CC-47CA-810A-6CCC2FAC6624}</value>
+        <value type="string">{B37E43B5-C83C-49A6-81FD-21424E22A0CC}</value>
+        <value type="string">{69774387-87EB-4929-95F7-666E7081C341}</value>
+        <value type="string">{EFA25F7E-F252-4083-A7E7-0E0B51D2C7A6}</value>
+        <value type="string">{82133B64-E91A-4EAB-96E7-5211E354E818}</value>
+        <value type="string">{3006DAE4-DDE9-4979-B982-8284D885ED2A}</value>
+        <value type="string">{6C8C05CC-8859-4974-B756-497697DB875F}</value>
+        <value type="string">{99441A25-E2A8-4B71-A311-AA46C216D6A9}</value>
+        <value type="string">{B670A3DE-8FD2-4508-A437-4EE82D3F184A}</value>
+        <value type="string">{EF353851-0BAE-450A-8751-D96E58402C08}</value>
+        <value type="string">{25D735B3-3DBA-4EF7-95C9-B94E5A480D40}</value>
+        <value type="string">{F312E41B-8ECF-4B2D-B084-B22186F114AE}</value>
+        <value type="string">{7A92AB4C-BB3F-47B9-BC98-4F55CF8690A3}</value>
+        <value type="string">{3EE67D94-4290-4A37-A0A3-73E2602C2971}</value>
+        <value type="string">{EF2A81A5-CB47-46E3-9FC5-203D7DA8EA10}</value>
+      </value>
+      <value type="string" key="comment"></value>
+      <value type="string" key="defaultCharacterSetName"></value>
+      <value type="string" key="defaultCollationName"></value>
+      <value type="string" key="name">default</value>
+      <value type="string" key="oldName">default</value>
+      <value type="string" key="owner" option="ref">{4F876CEE-EE30-4FB2-92B3-14B2986F6A63}</value>
+      <value type="list" content-type="dict" content-struct-name="db.mysql.Schema" key="schemata">
+        <value type="dict" struct-name="db.mysql.Schema">
+          <value type="string" key="_id">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+          <value type="string" key="comment"></value>
+          <value type="int" key="commentedOut">0</value>
+          <value type="string" key="defaultCharacterSetName">latin1</value>
+          <value type="string" key="defaultCollationName"></value>
+          <value type="string" key="name">couturedb</value>
+          <value type="string" key="oldName">couturedb</value>
+          <value type="string" key="owner" option="ref">{212E4FA9-82E1-4945-BCA5-293B32D994F5}</value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.RoutineGroup" key="routineGroups"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Routine" key="routines"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Sequence" key="sequences"/>
+          <value type="string" key="sql"></value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.StructuredDatatype" key="structuredTypes"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Synonym" key="synonyms"/>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.Table" key="tables">
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{137E172C-08DD-4C0E-9D48-7329EAC9E1B4}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{45EE0E52-B9DF-4660-98A4-13F88C134F9E}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idarticle</value>
+                  <value type="string" key="oldName">idarticle</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{8E2930BC-A300-427D-A64E-D02DF98C6643}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">idclient</value>
+                  <value type="string" key="oldName">idclient</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{468C99E0-ECA4-4104-93B4-6187E58C9FB2}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idtype_article</value>
+                  <value type="string" key="oldName">idtype_article</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{B0C0EB82-3BC3-490E-8AA0-6B7D37A47AE0}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idmodele</value>
+                  <value type="string" key="oldName">idmodele</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{359854C0-9A4D-453C-9405-2208E4896C19}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                    <value type="string">zerofill</value>
+                  </value>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">idfacture</value>
+                  <value type="string" key="oldName">idfacture</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{C27165FB-6A45-41C2-B0EF-AEDE8EA03BA5}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DATE</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">date_entree</value>
+                  <value type="string" key="oldName">date_entree</value>
+                  <value type="string" key="simpleType" option="ref">{E3ACD2FE-A26F-4BB8-ADA6-433F92B0570D}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{3D3F3B3D-7DB3-478B-852C-8BCBFEF799E2}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DATE</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">date_sortie</value>
+                  <value type="string" key="oldName">date_sortie</value>
+                  <value type="string" key="simpleType" option="ref">{E3ACD2FE-A26F-4BB8-ADA6-433F92B0570D}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{2C1DB656-42D8-4DAA-879E-8FC81CAE97D9}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">etat</value>
+                  <value type="string" key="oldName">etat</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{18CF5CAB-DB0A-47C7-87AE-32A1A6DBBB7C}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">TEXT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">commentaire</value>
+                  <value type="string" key="oldName">commentaire</value>
+                  <value type="string" key="simpleType" option="ref">{52734DB8-D81D-4593-A74C-891967DFAC63}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{44448609-D9B7-4F3B-A03D-E91B2DB64684}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">LONGBLOB</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">photo</value>
+                  <value type="string" key="oldName">photo</value>
+                  <value type="string" key="simpleType" option="ref">{6C2E3841-EA8D-48E1-A727-B0B2E71857BF}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{8ED00306-4DE0-4A61-AD5B-F58009FFFB94}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idmesure</value>
+                  <value type="string" key="oldName">idmesure</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{CF413FC2-9CFC-429F-B8DA-B1EBC65D9F9E}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">priorite</value>
+                  <value type="string" key="oldName">priorite</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{F4E01CF8-6D3E-46CE-BB62-423168B8DA66}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idcategorie</value>
+                  <value type="string" key="oldName">idcategorie</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB; (`idclient`) REFER `couturedb/client`(`idclient`); (`idmod</value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys">
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{4C11876F-B909-49F4-BCD9-A20CA5DA20BD}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{8E2930BC-A300-427D-A64E-D02DF98C6643}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_2</value>
+                  <value type="string" key="oldName">FK_article_2</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idclient</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{C562F093-6FC6-4B7E-9BBA-43E1431A985E}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{51472448-78E2-4CC8-8C03-CBB79AF676F7}</value>
+                  <value type="string" key="referedTableName">client</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{4B4BD550-38A8-4B67-9E84-180E75CAF71C}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{B0C0EB82-3BC3-490E-8AA0-6B7D37A47AE0}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_3</value>
+                  <value type="string" key="oldName">FK_article_3</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idmodele</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{2A1058D2-7458-42B5-9991-BA6017312818}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{5B1088B6-AFBA-4BE4-838E-D70910B43C0C}</value>
+                  <value type="string" key="referedTableName">modele</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{42F05C82-D5E2-4126-A356-7383F0B96BDF}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{468C99E0-ECA4-4104-93B4-6187E58C9FB2}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_4</value>
+                  <value type="string" key="oldName">FK_article_4</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idtype_article</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{582C95FD-2283-4807-95E0-1A338491BFBF}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{BA854FF3-EDE6-4AD9-8CEA-DF87B217E197}</value>
+                  <value type="string" key="referedTableName">type_article</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{804F055F-FF85-4FEC-B86B-49909601D7DB}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{8ED00306-4DE0-4A61-AD5B-F58009FFFB94}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_5</value>
+                  <value type="string" key="oldName">FK_article_5</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idmesure</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{BDF23E4A-8C88-493F-A147-838571182292}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{27110459-8938-43DC-9210-7D0D54FF0F03}</value>
+                  <value type="string" key="referedTableName">mesure</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{16CEC55B-9C17-4899-8E8C-86A956DF26E2}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{359854C0-9A4D-453C-9405-2208E4896C19}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_6</value>
+                  <value type="string" key="oldName">FK_article_6</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idfacture</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{5B787BB4-8735-4082-AC0E-B9989A2AEE5C}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{EE6EBE7F-A069-49CA-98E7-420D75584B15}</value>
+                  <value type="string" key="referedTableName">facture</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{F3AD5108-9539-4102-B52D-475AA48FF5FD}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{F4E01CF8-6D3E-46CE-BB62-423168B8DA66}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_8</value>
+                  <value type="string" key="oldName">FK_article_8</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idcategorie</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{F238614C-183C-4CD3-A685-B860F43D0355}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{94A12003-A234-40F8-A7A0-A7DF5671740C}</value>
+                  <value type="string" key="referedTableName">categorie_article</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{8681ACB8-7EDC-4945-9814-79DFA9C35F8B}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{F4E01CF8-6D3E-46CE-BB62-423168B8DA66}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_idcategorie</value>
+                  <value type="string" key="oldName">FK_article_idcategorie</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idcategorie</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{F238614C-183C-4CD3-A685-B860F43D0355}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{94A12003-A234-40F8-A7A0-A7DF5671740C}</value>
+                  <value type="string" key="referedTableName">categorie_article</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{36FF3EFE-8A17-4932-A032-A762745600A1}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{8E2930BC-A300-427D-A64E-D02DF98C6643}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_idclient</value>
+                  <value type="string" key="oldName">FK_article_idclient</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idclient</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{C562F093-6FC6-4B7E-9BBA-43E1431A985E}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{51472448-78E2-4CC8-8C03-CBB79AF676F7}</value>
+                  <value type="string" key="referedTableName">client</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{806C70DC-09D5-400F-8583-7C002BD006AD}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{359854C0-9A4D-453C-9405-2208E4896C19}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_idfacture</value>
+                  <value type="string" key="oldName">FK_article_idfacture</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idfacture</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{5B787BB4-8735-4082-AC0E-B9989A2AEE5C}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{EE6EBE7F-A069-49CA-98E7-420D75584B15}</value>
+                  <value type="string" key="referedTableName">facture</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{0721EAAC-5E4E-4ACF-86B6-BBF867334413}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{8ED00306-4DE0-4A61-AD5B-F58009FFFB94}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_idmesure</value>
+                  <value type="string" key="oldName">FK_article_idmesure</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idmesure</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{BDF23E4A-8C88-493F-A147-838571182292}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{27110459-8938-43DC-9210-7D0D54FF0F03}</value>
+                  <value type="string" key="referedTableName">mesure</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{DFB8C0E6-79DB-455D-AECC-D78774B3BAA6}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{B0C0EB82-3BC3-490E-8AA0-6B7D37A47AE0}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_idmodele</value>
+                  <value type="string" key="oldName">FK_article_idmodele</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idmodele</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{2A1058D2-7458-42B5-9991-BA6017312818}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{5B1088B6-AFBA-4BE4-838E-D70910B43C0C}</value>
+                  <value type="string" key="referedTableName">modele</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{EC8325E0-1524-4C07-A4D3-871323B6D654}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{468C99E0-ECA4-4104-93B4-6187E58C9FB2}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_article_idtype_article</value>
+                  <value type="string" key="oldName">FK_article_idtype_article</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idtype_article</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{582C95FD-2283-4807-95E0-1A338491BFBF}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{BA854FF3-EDE6-4AD9-8CEA-DF87B217E197}</value>
+                  <value type="string" key="referedTableName">type_article</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+              </value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{483AB95A-AB82-42E4-9332-10892EEBA8B0}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{CEAB5D68-C99C-4CC4-AF1E-CAC42CAEEB0C}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idarticle</value>
+                      <value type="string" key="owner" option="ref">{483AB95A-AB82-42E4-9332-10892EEBA8B0}</value>
+                      <value type="string" key="referedColumn" option="ref">{45EE0E52-B9DF-4660-98A4-13F88C134F9E}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{137E172C-08DD-4C0E-9D48-7329EAC9E1B4}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{7A07C387-65AF-419D-A5CF-6A6BC4E533CD}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{C7201B97-158D-4555-A528-0F4E0A3E8845}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idmodele</value>
+                      <value type="string" key="owner" option="ref">{7A07C387-65AF-419D-A5CF-6A6BC4E533CD}</value>
+                      <value type="string" key="referedColumn" option="ref">{B0C0EB82-3BC3-490E-8AA0-6B7D37A47AE0}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind"></value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="string" key="name">FK_article_idmodele</value>
+                  <value type="string" key="oldName">FK_article_idmodele</value>
+                  <value type="string" key="owner" option="ref">{137E172C-08DD-4C0E-9D48-7329EAC9E1B4}</value>
+                  <value type="int" key="unique">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{86E73494-50C6-4EE3-86F2-19E419BA1B81}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{5B21F206-0D4A-4500-8A3D-7F92907A3F23}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idclient</value>
+                      <value type="string" key="owner" option="ref">{86E73494-50C6-4EE3-86F2-19E419BA1B81}</value>
+                      <value type="string" key="referedColumn" option="ref">{8E2930BC-A300-427D-A64E-D02DF98C6643}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind"></value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="string" key="name">FK_article_idclient</value>
+                  <value type="string" key="oldName">FK_article_idclient</value>
+                  <value type="string" key="owner" option="ref">{137E172C-08DD-4C0E-9D48-7329EAC9E1B4}</value>
+                  <value type="int" key="unique">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{BA8703E7-0F9E-455C-B396-695AE7450447}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{0FD3C00B-3F20-41C9-9720-D2AE812A01FC}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idtype_article</value>
+                      <value type="string" key="owner" option="ref">{BA8703E7-0F9E-455C-B396-695AE7450447}</value>
+                      <value type="string" key="referedColumn" option="ref">{468C99E0-ECA4-4104-93B4-6187E58C9FB2}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind"></value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="string" key="name">FK_article_idtype_article</value>
+                  <value type="string" key="oldName">FK_article_idtype_article</value>
+                  <value type="string" key="owner" option="ref">{137E172C-08DD-4C0E-9D48-7329EAC9E1B4}</value>
+                  <value type="int" key="unique">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{C7AB58AB-66F5-4AB6-B6BB-5AEC223A52AC}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{8566AF91-87D2-4891-8456-172390AFDAD5}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idmesure</value>
+                      <value type="string" key="owner" option="ref">{C7AB58AB-66F5-4AB6-B6BB-5AEC223A52AC}</value>
+                      <value type="string" key="referedColumn" option="ref">{8ED00306-4DE0-4A61-AD5B-F58009FFFB94}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind"></value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="string" key="name">FK_article_idmesure</value>
+                  <value type="string" key="oldName">FK_article_idmesure</value>
+                  <value type="string" key="owner" option="ref">{137E172C-08DD-4C0E-9D48-7329EAC9E1B4}</value>
+                  <value type="int" key="unique">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{999CED1A-78E5-4726-90B7-62F37DC9BF71}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{7B750A3A-BE2A-4434-9008-BEB47617B743}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idfacture</value>
+                      <value type="string" key="owner" option="ref">{999CED1A-78E5-4726-90B7-62F37DC9BF71}</value>
+                      <value type="string" key="referedColumn" option="ref">{359854C0-9A4D-453C-9405-2208E4896C19}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind"></value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="string" key="name">FK_article_idfacture</value>
+                  <value type="string" key="oldName">FK_article_idfacture</value>
+                  <value type="string" key="owner" option="ref">{137E172C-08DD-4C0E-9D48-7329EAC9E1B4}</value>
+                  <value type="int" key="unique">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{710302E1-7798-467F-8E84-F69FE8C08B39}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{943C5E72-4FD8-4D06-8BE3-CEEF1F7E598B}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idcategorie</value>
+                      <value type="string" key="owner" option="ref">{710302E1-7798-467F-8E84-F69FE8C08B39}</value>
+                      <value type="string" key="referedColumn" option="ref">{F4E01CF8-6D3E-46CE-BB62-423168B8DA66}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind"></value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="string" key="name">FK_article_idcategorie</value>
+                  <value type="string" key="oldName">FK_article_idcategorie</value>
+                  <value type="string" key="owner" option="ref">{137E172C-08DD-4C0E-9D48-7329EAC9E1B4}</value>
+                  <value type="int" key="unique">0</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">article</value>
+              <value type="string" key="nextAutoInc">253</value>
+              <value type="string" key="oldName">article</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{483AB95A-AB82-42E4-9332-10892EEBA8B0}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `article` (
+  `idarticle` int(10) unsigned NOT NULL auto_increment,
+  `idclient` varchar(45) NOT NULL,
+  `idtype_article` int(10) unsigned NOT NULL,
+  `idmodele` int(10) unsigned NOT NULL,
+  `idfacture` int(10) unsigned zerofill default NULL,
+  `date_entree` date default NULL,
+  `date_sortie` date default NULL,
+  `etat` varchar(45) default NULL,
+  `commentaire` text,
+  `photo` longblob,
+  `idmesure` int(10) unsigned NOT NULL,
+  `priorite` int(10) unsigned default NULL,
+  `idcategorie` int(10) unsigned NOT NULL,
+  PRIMARY KEY  (`idarticle`),
+  KEY `FK_article_idmodele` (`idmodele`),
+  KEY `FK_article_idclient` (`idclient`),
+  KEY `FK_article_idtype_article` (`idtype_article`),
+  KEY `FK_article_idmesure` (`idmesure`),
+  KEY `FK_article_idfacture` (`idfacture`),
+  KEY `FK_article_idcategorie` (`idcategorie`),
+  CONSTRAINT `FK_article_2` FOREIGN KEY (`idclient`) REFERENCES `client` (`idclient`),
+  CONSTRAINT `FK_article_3` FOREIGN KEY (`idmodele`) REFERENCES `modele` (`idmodele`),
+  CONSTRAINT `FK_article_4` FOREIGN KEY (`idtype_article`) REFERENCES `type_article` (`idtype_article`),
+  CONSTRAINT `FK_article_5` FOREIGN KEY (`idmesure`) REFERENCES `mesure` (`idmesure`),
+  CONSTRAINT `FK_article_6` FOREIGN KEY (`idfacture`) REFERENCES `facture` (`idfacture`),
+  CONSTRAINT `FK_article_8` FOREIGN KEY (`idcategorie`) REFERENCES `categorie_article` (`idcategorie`),
+  CONSTRAINT `FK_article_idcategorie` FOREIGN KEY (`idcategorie`) REFERENCES `categorie_article` (`idcategorie`),
+  CONSTRAINT `FK_article_idclient` FOREIGN KEY (`idclient`) REFERENCES `client` (`idclient`),
+  CONSTRAINT `FK_article_idfacture` FOREIGN KEY (`idfacture`) REFERENCES `facture` (`idfacture`),
+  CONSTRAINT `FK_article_idmesure` FOREIGN KEY (`idmesure`) REFERENCES `mesure` (`idmesure`),
+  CONSTRAINT `FK_article_idmodele` FOREIGN KEY (`idmodele`) REFERENCES `modele` (`idmodele`),
+  CONSTRAINT `FK_article_idtype_article` FOREIGN KEY (`idtype_article`) REFERENCES `type_article` (`idtype_article`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{94A12003-A234-40F8-A7A0-A7DF5671740C}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{F238614C-183C-4CD3-A685-B860F43D0355}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idcategorie</value>
+                  <value type="string" key="oldName">idcategorie</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{5219E854-FFF8-40E4-88C8-264A16005B05}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">label</value>
+                  <value type="string" key="oldName">label</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB</value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{5FF71C06-3B1D-4C33-9594-4696F3E855F2}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{A004BA42-8D22-4633-8B3A-41E4DA0E655E}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idcategorie</value>
+                      <value type="string" key="owner" option="ref">{5FF71C06-3B1D-4C33-9594-4696F3E855F2}</value>
+                      <value type="string" key="referedColumn" option="ref">{F238614C-183C-4CD3-A685-B860F43D0355}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{94A12003-A234-40F8-A7A0-A7DF5671740C}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">categorie_article</value>
+              <value type="string" key="nextAutoInc">3</value>
+              <value type="string" key="oldName">categorie_article</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{5FF71C06-3B1D-4C33-9594-4696F3E855F2}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `categorie_article` (
+  `idcategorie` int(10) unsigned NOT NULL auto_increment,
+  `label` varchar(45) NOT NULL,
+  PRIMARY KEY  (`idcategorie`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{51472448-78E2-4CC8-8C03-CBB79AF676F7}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{C562F093-6FC6-4B7E-9BBA-43E1431A985E}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">idclient</value>
+                  <value type="string" key="oldName">idclient</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{2BA67DA6-D5BE-44A2-8332-6C437D2D8FAD}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">nom</value>
+                  <value type="string" key="oldName">nom</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{6FB050B5-4A92-406B-B9F6-677EC4328E50}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">postnom</value>
+                  <value type="string" key="oldName">postnom</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{4FFDAB9F-AFF0-409F-AE89-58DA1AC34E24}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">prenom</value>
+                  <value type="string" key="oldName">prenom</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{CCFFB014-1CA8-4C60-A13E-569D845C9BEE}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">TEXT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">adresse</value>
+                  <value type="string" key="oldName">adresse</value>
+                  <value type="string" key="simpleType" option="ref">{52734DB8-D81D-4593-A74C-891967DFAC63}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{7CE5BB4C-BA71-475C-A624-8037D1FD66D4}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">telephone</value>
+                  <value type="string" key="oldName">telephone</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{25D75958-0824-43C2-8635-2C1C03B1317E}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">LONGBLOB</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">photo</value>
+                  <value type="string" key="oldName">photo</value>
+                  <value type="string" key="simpleType" option="ref">{6C2E3841-EA8D-48E1-A727-B0B2E71857BF}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB</value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{D7927C96-7010-4852-9B49-2856F0AB1938}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{EE07199D-6683-4A55-B49F-90D1DD4A057A}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idclient</value>
+                      <value type="string" key="owner" option="ref">{D7927C96-7010-4852-9B49-2856F0AB1938}</value>
+                      <value type="string" key="referedColumn" option="ref">{C562F093-6FC6-4B7E-9BBA-43E1431A985E}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{51472448-78E2-4CC8-8C03-CBB79AF676F7}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">client</value>
+              <value type="string" key="oldName">client</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{D7927C96-7010-4852-9B49-2856F0AB1938}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `client` (
+  `idclient` varchar(45) NOT NULL,
+  `nom` varchar(45) default NULL,
+  `postnom` varchar(45) default NULL,
+  `prenom` varchar(45) default NULL,
+  `adresse` text,
+  `telephone` varchar(45) default NULL,
+  `photo` longblob,
+  PRIMARY KEY  (`idclient`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{7DD7793B-5AA6-4257-873D-B68F06590E82}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{5EE3D8B9-76E8-4B1E-B018-C02F44F89F04}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idcompte</value>
+                  <value type="string" key="oldName">idcompte</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{87B072CA-4B35-4009-A173-71C1AC60D06D}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">libele</value>
+                  <value type="string" key="oldName">libele</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{424FE440-5C2F-4EAF-808C-8FCC47CB067D}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">Description</value>
+                  <value type="string" key="oldName">Description</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{B1FFFA58-720D-423C-8295-CFA4E5B00772}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">exercice</value>
+                  <value type="string" key="oldName">exercice</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB</value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{7ADE9B41-FA4A-4EC1-ACC0-7B3AA204FABD}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{B4E53B3D-C303-4D5F-BA08-24A136B1F9D6}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idcompte</value>
+                      <value type="string" key="owner" option="ref">{7ADE9B41-FA4A-4EC1-ACC0-7B3AA204FABD}</value>
+                      <value type="string" key="referedColumn" option="ref">{5EE3D8B9-76E8-4B1E-B018-C02F44F89F04}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{7DD7793B-5AA6-4257-873D-B68F06590E82}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">compte</value>
+              <value type="string" key="oldName">compte</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{7ADE9B41-FA4A-4EC1-ACC0-7B3AA204FABD}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `compte` (
+  `idcompte` int(10) unsigned NOT NULL,
+  `libele` varchar(45) NOT NULL,
+  `Description` varchar(45) NOT NULL,
+  `exercice` varchar(45) NOT NULL,
+  PRIMARY KEY  (`idcompte`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{EE6EBE7F-A069-49CA-98E7-420D75584B15}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{5B787BB4-8735-4082-AC0E-B9989A2AEE5C}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idfacture</value>
+                  <value type="string" key="oldName">idfacture</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{E6973305-D069-46B0-A869-E453927F2D1A}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DOUBLE</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">montant</value>
+                  <value type="string" key="oldName">montant</value>
+                  <value type="string" key="simpleType" option="ref">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{2FC7BA50-F3CA-4E56-A4A4-A826D0CBAFFD}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idpayement_mode</value>
+                  <value type="string" key="oldName">idpayement_mode</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{D8BADFB0-2551-4FAF-81C7-EC4173805A81}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DATE</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">date_emission</value>
+                  <value type="string" key="oldName">date_emission</value>
+                  <value type="string" key="simpleType" option="ref">{E3ACD2FE-A26F-4BB8-ADA6-433F92B0570D}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB; (`idarticle`) REFER `couturedb/article; InnoDB free: 7168 </value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys">
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{482DB65A-E1E2-473C-A512-268733E4B384}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{2FC7BA50-F3CA-4E56-A4A4-A826D0CBAFFD}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_facture_1</value>
+                  <value type="string" key="oldName">FK_facture_1</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idpayement_mode</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{E4839BAD-5A8D-4F8B-9376-F35629A2A566}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{A273ADBD-D03D-4BBB-A58A-C1854B81D8DC}</value>
+                  <value type="string" key="referedTableName">payement_mode</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{124105DF-0E9C-4A3D-8242-53BE8340D73A}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{2FC7BA50-F3CA-4E56-A4A4-A826D0CBAFFD}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_facture_idpayement_mode</value>
+                  <value type="string" key="oldName">FK_facture_idpayement_mode</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idpayement_mode</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{E4839BAD-5A8D-4F8B-9376-F35629A2A566}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{A273ADBD-D03D-4BBB-A58A-C1854B81D8DC}</value>
+                  <value type="string" key="referedTableName">payement_mode</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+              </value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{3C2F558D-771C-401E-8D45-210A42E1DB1D}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{ED6349FD-23C8-4DEA-8767-B1DA012C483D}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idfacture</value>
+                      <value type="string" key="owner" option="ref">{3C2F558D-771C-401E-8D45-210A42E1DB1D}</value>
+                      <value type="string" key="referedColumn" option="ref">{5B787BB4-8735-4082-AC0E-B9989A2AEE5C}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{EE6EBE7F-A069-49CA-98E7-420D75584B15}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{49FCB050-69AC-4860-A64A-9F364C85165D}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{D8A207E4-EF2A-4B93-AA23-E1738F6FF378}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idpayement_mode</value>
+                      <value type="string" key="owner" option="ref">{49FCB050-69AC-4860-A64A-9F364C85165D}</value>
+                      <value type="string" key="referedColumn" option="ref">{2FC7BA50-F3CA-4E56-A4A4-A826D0CBAFFD}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind"></value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="string" key="name">FK_facture_1</value>
+                  <value type="string" key="oldName">FK_facture_1</value>
+                  <value type="string" key="owner" option="ref">{EE6EBE7F-A069-49CA-98E7-420D75584B15}</value>
+                  <value type="int" key="unique">0</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">facture</value>
+              <value type="string" key="nextAutoInc">203</value>
+              <value type="string" key="oldName">facture</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{3C2F558D-771C-401E-8D45-210A42E1DB1D}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `facture` (
+  `idfacture` int(10) unsigned NOT NULL auto_increment,
+  `montant` double NOT NULL,
+  `idpayement_mode` int(10) unsigned NOT NULL,
+  `date_emission` date default NULL,
+  PRIMARY KEY  (`idfacture`),
+  KEY `FK_facture_1` (`idpayement_mode`),
+  CONSTRAINT `FK_facture_1` FOREIGN KEY (`idpayement_mode`) REFERENCES `payement_mode` (`idpayement_mode`),
+  CONSTRAINT `FK_facture_idpayement_mode` FOREIGN KEY (`idpayement_mode`) REFERENCES `payement_mode` (`idpayement_mode`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COMMENT='InnoDB free: 7168 kB; (`idarticle`) REFER `couturedb/article'</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{27110459-8938-43DC-9210-7D0D54FF0F03}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{BDF23E4A-8C88-493F-A147-838571182292}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idmesure</value>
+                  <value type="string" key="oldName">idmesure</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{7FA2EBF9-C88D-4181-811C-87757FB334DB}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DOUBLE</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">longueur</value>
+                  <value type="string" key="oldName">longueur</value>
+                  <value type="string" key="simpleType" option="ref">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{2640D48F-0401-43CB-9A76-42F19AB97DB0}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DOUBLE</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">contour_potrine</value>
+                  <value type="string" key="oldName">contour_potrine</value>
+                  <value type="string" key="simpleType" option="ref">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{F792B6E1-63C9-45E6-95AD-0F430CEC4A84}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DOUBLE</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">contour_hanche</value>
+                  <value type="string" key="oldName">contour_hanche</value>
+                  <value type="string" key="simpleType" option="ref">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{B4F28AC8-5F5F-4660-8327-B389CB639837}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DOUBLE</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">epaule</value>
+                  <value type="string" key="oldName">epaule</value>
+                  <value type="string" key="simpleType" option="ref">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{AABC177C-50CA-4FBE-A947-34F8ECB3522C}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">mache</value>
+                  <value type="string" key="oldName">mache</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{D4D0B3E2-4972-498F-A7C0-2A911A948387}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">pince</value>
+                  <value type="string" key="oldName">pince</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{818825E3-2B26-4EC5-B867-CAA0AD668648}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DOUBLE</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">contour_ventre</value>
+                  <value type="string" key="oldName">contour_ventre</value>
+                  <value type="string" key="simpleType" option="ref">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{ADE12C3A-C6EF-40B6-A797-CE89A2E2C55D}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DOUBLE</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">contour_taille</value>
+                  <value type="string" key="oldName">contour_taille</value>
+                  <value type="string" key="simpleType" option="ref">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB</value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{46986F77-620A-44E0-955A-81D7F7D40328}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{64231FAD-62BE-4D26-B8B7-5E9C7BE69D2B}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idmesure</value>
+                      <value type="string" key="owner" option="ref">{46986F77-620A-44E0-955A-81D7F7D40328}</value>
+                      <value type="string" key="referedColumn" option="ref">{BDF23E4A-8C88-493F-A147-838571182292}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{27110459-8938-43DC-9210-7D0D54FF0F03}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">mesure</value>
+              <value type="string" key="nextAutoInc">21</value>
+              <value type="string" key="oldName">mesure</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{46986F77-620A-44E0-955A-81D7F7D40328}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `mesure` (
+  `idmesure` int(10) unsigned NOT NULL auto_increment,
+  `longueur` double default NULL,
+  `contour_potrine` double default NULL,
+  `contour_hanche` double default NULL,
+  `epaule` double default NULL,
+  `mache` varchar(45) default NULL,
+  `pince` varchar(45) default NULL,
+  `contour_ventre` double default NULL,
+  `contour_taille` double default NULL,
+  PRIMARY KEY  (`idmesure`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{5B1088B6-AFBA-4BE4-838E-D70910B43C0C}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{2A1058D2-7458-42B5-9991-BA6017312818}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idmodele</value>
+                  <value type="string" key="oldName">idmodele</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{81339EA1-8FAF-41FE-BFE6-F673C793CB30}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">nom</value>
+                  <value type="string" key="oldName">nom</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{32B55249-61D3-4C13-A36E-7F3D01868D23}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">TEXT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">description</value>
+                  <value type="string" key="oldName">description</value>
+                  <value type="string" key="simpleType" option="ref">{52734DB8-D81D-4593-A74C-891967DFAC63}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{68A9DBBF-E71E-4317-A2FE-DEF31A1F15CF}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">LONGBLOB</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">image</value>
+                  <value type="string" key="oldName">image</value>
+                  <value type="string" key="simpleType" option="ref">{6C2E3841-EA8D-48E1-A727-B0B2E71857BF}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB</value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{5713D3FC-9B22-4347-878D-1FA1722AA70B}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{A6768DBF-D38A-4A1F-AAD4-9DC60CA92181}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idmodele</value>
+                      <value type="string" key="owner" option="ref">{5713D3FC-9B22-4347-878D-1FA1722AA70B}</value>
+                      <value type="string" key="referedColumn" option="ref">{2A1058D2-7458-42B5-9991-BA6017312818}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{5B1088B6-AFBA-4BE4-838E-D70910B43C0C}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">modele</value>
+              <value type="string" key="nextAutoInc">4</value>
+              <value type="string" key="oldName">modele</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{5713D3FC-9B22-4347-878D-1FA1722AA70B}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `modele` (
+  `idmodele` int(10) unsigned NOT NULL auto_increment,
+  `nom` varchar(45) NOT NULL,
+  `description` text,
+  `image` longblob,
+  PRIMARY KEY  (`idmodele`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{F5C556E8-0EA2-4371-859C-2449CE9268E9}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{268E786D-3B8F-4944-AB4B-6586AB882BF8}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idmouvement_compte</value>
+                  <value type="string" key="oldName">idmouvement_compte</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{B6DD4037-9B9A-4571-84D1-3EC51BB68309}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idcompte</value>
+                  <value type="string" key="oldName">idcompte</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{57A80347-BDBF-42CA-A0A7-236A34577CF4}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DOUBLE</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">entree</value>
+                  <value type="string" key="oldName">entree</value>
+                  <value type="string" key="simpleType" option="ref">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{78693BCD-5741-4FA2-AF21-62A2CA588CB6}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DOUBLE</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">sortie</value>
+                  <value type="string" key="oldName">sortie</value>
+                  <value type="string" key="simpleType" option="ref">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{1E29FB69-602C-4673-AE5C-7C6CB99F3850}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DATE</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">date</value>
+                  <value type="string" key="oldName">date</value>
+                  <value type="string" key="simpleType" option="ref">{E3ACD2FE-A26F-4BB8-ADA6-433F92B0570D}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{6A554C8D-4E59-4BD6-AD7F-8C7B8A6D0F07}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">description</value>
+                  <value type="string" key="oldName">description</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{3B09C46E-67B4-4F16-941D-614870B60AD2}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">idfacture</value>
+                  <value type="string" key="oldName">idfacture</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB; (`idcompte`) REFER `couturedb/compte`(`idcompte`); (`idfac</value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys">
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{E302D662-E4B3-4681-B527-2497A71013C1}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{B6DD4037-9B9A-4571-84D1-3EC51BB68309}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_mouvement_compte_1</value>
+                  <value type="string" key="oldName">FK_mouvement_compte_1</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idcompte</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{5EE3D8B9-76E8-4B1E-B018-C02F44F89F04}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{7DD7793B-5AA6-4257-873D-B68F06590E82}</value>
+                  <value type="string" key="referedTableName">compte</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{8D4A689C-BC44-4977-ABD7-29BBD9C97608}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{3B09C46E-67B4-4F16-941D-614870B60AD2}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_mouvement_compte_2</value>
+                  <value type="string" key="oldName">FK_mouvement_compte_2</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idfacture</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{5B787BB4-8735-4082-AC0E-B9989A2AEE5C}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{EE6EBE7F-A069-49CA-98E7-420D75584B15}</value>
+                  <value type="string" key="referedTableName">facture</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{76780D06-9674-426F-BAB0-DF421D605BA9}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{B6DD4037-9B9A-4571-84D1-3EC51BB68309}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_mouvement_compte_idcompte</value>
+                  <value type="string" key="oldName">FK_mouvement_compte_idcompte</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idcompte</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{5EE3D8B9-76E8-4B1E-B018-C02F44F89F04}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{7DD7793B-5AA6-4257-873D-B68F06590E82}</value>
+                  <value type="string" key="referedTableName">compte</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.ForeignKey">
+                  <value type="string" key="_id">{46FC5DD9-4CA1-46B9-9EF4-B596A6C777FD}</value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="columns" option="ref">
+                    <value type="string">{3B09C46E-67B4-4F16-941D-614870B60AD2}</value>
+                  </value>
+                  <value type="string" key="deleteRule">RESTRICT</value>
+                  <value type="string" key="name">FK_mouvement_compte_idfacture</value>
+                  <value type="string" key="oldName">FK_mouvement_compte_idfacture</value>
+                  <value type="list" content-type="string" key="referedColumnNames">
+                    <value type="string">idfacture</value>
+                  </value>
+                  <value type="list" content-type="string" content-struct-name="db.mysql.Column" key="referedColumns" option="ref">
+                    <value type="string">{5B787BB4-8735-4082-AC0E-B9989A2AEE5C}</value>
+                  </value>
+                  <value type="string" key="referedTable" option="ref">{EE6EBE7F-A069-49CA-98E7-420D75584B15}</value>
+                  <value type="string" key="referedTableName">facture</value>
+                  <value type="string" key="updateRule">RESTRICT</value>
+                </value>
+              </value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{FEBE3C71-C350-43DB-8488-CDD1FEF49FA1}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{E6D5043C-C57F-4566-95CC-3336687E4DA8}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idmouvement_compte</value>
+                      <value type="string" key="owner" option="ref">{FEBE3C71-C350-43DB-8488-CDD1FEF49FA1}</value>
+                      <value type="string" key="referedColumn" option="ref">{268E786D-3B8F-4944-AB4B-6586AB882BF8}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{F5C556E8-0EA2-4371-859C-2449CE9268E9}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{3EEC4D64-A4F6-464E-AA98-AF697687D60A}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{AF9F6ADD-A033-4D27-9DD3-0D96B64AE8CF}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idcompte</value>
+                      <value type="string" key="owner" option="ref">{3EEC4D64-A4F6-464E-AA98-AF697687D60A}</value>
+                      <value type="string" key="referedColumn" option="ref">{B6DD4037-9B9A-4571-84D1-3EC51BB68309}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind"></value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="string" key="name">FK_mouvement_compte_idcompte</value>
+                  <value type="string" key="oldName">FK_mouvement_compte_idcompte</value>
+                  <value type="string" key="owner" option="ref">{F5C556E8-0EA2-4371-859C-2449CE9268E9}</value>
+                  <value type="int" key="unique">0</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{D48D07BE-C9ED-407A-9050-5B0A4B444FAB}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{0E968BE1-24E2-4104-A279-892AC5E03870}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idfacture</value>
+                      <value type="string" key="owner" option="ref">{D48D07BE-C9ED-407A-9050-5B0A4B444FAB}</value>
+                      <value type="string" key="referedColumn" option="ref">{3B09C46E-67B4-4F16-941D-614870B60AD2}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind"></value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="string" key="name">FK_mouvement_compte_idfacture</value>
+                  <value type="string" key="oldName">FK_mouvement_compte_idfacture</value>
+                  <value type="string" key="owner" option="ref">{F5C556E8-0EA2-4371-859C-2449CE9268E9}</value>
+                  <value type="int" key="unique">0</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">mouvement_compte</value>
+              <value type="string" key="nextAutoInc">6</value>
+              <value type="string" key="oldName">mouvement_compte</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{FEBE3C71-C350-43DB-8488-CDD1FEF49FA1}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `mouvement_compte` (
+  `idmouvement_compte` int(10) unsigned NOT NULL auto_increment,
+  `idcompte` int(10) unsigned NOT NULL,
+  `entree` double NOT NULL,
+  `sortie` double NOT NULL,
+  `date` date NOT NULL,
+  `description` varchar(45) NOT NULL,
+  `idfacture` int(10) unsigned default NULL,
+  PRIMARY KEY  (`idmouvement_compte`),
+  KEY `FK_mouvement_compte_idcompte` (`idcompte`),
+  KEY `FK_mouvement_compte_idfacture` (`idfacture`),
+  CONSTRAINT `FK_mouvement_compte_1` FOREIGN KEY (`idcompte`) REFERENCES `compte` (`idcompte`),
+  CONSTRAINT `FK_mouvement_compte_2` FOREIGN KEY (`idfacture`) REFERENCES `facture` (`idfacture`),
+  CONSTRAINT `FK_mouvement_compte_idcompte` FOREIGN KEY (`idcompte`) REFERENCES `compte` (`idcompte`),
+  CONSTRAINT `FK_mouvement_compte_idfacture` FOREIGN KEY (`idfacture`) REFERENCES `facture` (`idfacture`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{A273ADBD-D03D-4BBB-A58A-C1854B81D8DC}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{E4839BAD-5A8D-4F8B-9376-F35629A2A566}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idpayement_mode</value>
+                  <value type="string" key="oldName">idpayement_mode</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{97CCF604-DBCA-45E4-8269-B199CF2DB88E}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">label</value>
+                  <value type="string" key="oldName">label</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB</value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{2BF0EF03-F2C7-485B-AF84-C45B3ABBC85E}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{2FC8FC6B-39B6-4331-A097-B1160819DB26}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idpayement_mode</value>
+                      <value type="string" key="owner" option="ref">{2BF0EF03-F2C7-485B-AF84-C45B3ABBC85E}</value>
+                      <value type="string" key="referedColumn" option="ref">{E4839BAD-5A8D-4F8B-9376-F35629A2A566}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{A273ADBD-D03D-4BBB-A58A-C1854B81D8DC}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">payement_mode</value>
+              <value type="string" key="nextAutoInc">3</value>
+              <value type="string" key="oldName">payement_mode</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{2BF0EF03-F2C7-485B-AF84-C45B3ABBC85E}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `payement_mode` (
+  `idpayement_mode` int(10) unsigned NOT NULL auto_increment,
+  `label` varchar(45) NOT NULL,
+  PRIMARY KEY  (`idpayement_mode`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{21B31C66-9DF2-4395-A947-B5071C692D23}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{B7253456-74C4-4034-AFF6-49614BA2A8A8}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">50</value>
+                  <value type="string" key="name">SEQ_NAME</value>
+                  <value type="string" key="oldName">SEQ_NAME</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{F78F80B2-C9AC-4AE3-94C9-9D031568F689}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">DECIMAL</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">1</value>
+                  <value type="string" key="name">SEQ_COUNT</value>
+                  <value type="string" key="oldName">SEQ_COUNT</value>
+                  <value type="int" key="precision">38</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{8CB74E5F-921A-4F6E-95C6-3AD94F2BB36F}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB</value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{2418C14A-305E-4F3D-9435-54B8DA11D4F5}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{3938A8A1-B232-48D7-949B-11B989612E90}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">SEQ_NAME</value>
+                      <value type="string" key="owner" option="ref">{2418C14A-305E-4F3D-9435-54B8DA11D4F5}</value>
+                      <value type="string" key="referedColumn" option="ref">{B7253456-74C4-4034-AFF6-49614BA2A8A8}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{21B31C66-9DF2-4395-A947-B5071C692D23}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">sequence</value>
+              <value type="string" key="oldName">sequence</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{2418C14A-305E-4F3D-9435-54B8DA11D4F5}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `sequence` (
+  `SEQ_NAME` varchar(50) NOT NULL,
+  `SEQ_COUNT` decimal(38,0) default NULL,
+  PRIMARY KEY  (`SEQ_NAME`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+            <value type="dict" struct-name="db.mysql.Table">
+              <value type="string" key="_id">{BA854FF3-EDE6-4AD9-8CEA-DF87B217E197}</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Column" key="columns">
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{582C95FD-2283-4807-95E0-1A338491BFBF}</value>
+                  <value type="int" key="autoIncrement">1</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">INT</value>
+                  <value type="int" key="defaultValueIsNull">1</value>
+                  <value type="list" content-type="string" key="flags">
+                    <value type="string">unsigned</value>
+                  </value>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="string" key="name">idtype_article</value>
+                  <value type="string" key="oldName">idtype_article</value>
+                  <value type="int" key="precision">10</value>
+                  <value type="int" key="scale">0</value>
+                  <value type="string" key="simpleType" option="ref">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+                </value>
+                <value type="dict" struct-name="db.mysql.Column">
+                  <value type="string" key="_id">{281FC086-2895-48B2-87E7-754C4BF3D6F7}</value>
+                  <value type="int" key="autoIncrement">0</value>
+                  <value type="string" key="collationName">latin1_swedish_ci</value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="datatypeName">VARCHAR</value>
+                  <value type="string" key="defaultValue">''</value>
+                  <value type="int" key="defaultValueIsNull">0</value>
+                  <value type="list" content-type="string" key="flags"/>
+                  <value type="int" key="isNullable">0</value>
+                  <value type="int" key="length">45</value>
+                  <value type="string" key="name">nom</value>
+                  <value type="string" key="oldName">nom</value>
+                  <value type="string" key="simpleType" option="ref">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+                </value>
+              </value>
+              <value type="string" key="comment">InnoDB free: 7168 kB</value>
+              <value type="string" key="defaultCharacterSetName">latin1</value>
+              <value type="string" key="defaultCollationName">latin1_swedish_ci</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.ForeignKey" key="foreignKeys"/>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Index" key="indices">
+                <value type="dict" struct-name="db.mysql.Index">
+                  <value type="string" key="_id">{681AAF00-D7EE-461F-B504-4D709EEF5F5F}</value>
+                  <value type="list" content-type="dict" content-struct-name="db.IndexColumn" key="columns">
+                    <value type="dict" struct-name="db.mysql.IndexColumn">
+                      <value type="string" key="_id">{EB755803-D278-4BB6-8AC5-2A5ADC42B222}</value>
+                      <value type="int" key="descend">0</value>
+                      <value type="string" key="name">idtype_article</value>
+                      <value type="string" key="owner" option="ref">{681AAF00-D7EE-461F-B504-4D709EEF5F5F}</value>
+                      <value type="string" key="referedColumn" option="ref">{582C95FD-2283-4807-95E0-1A338491BFBF}</value>
+                    </value>
+                  </value>
+                  <value type="string" key="comment"></value>
+                  <value type="string" key="indexKind">PRIMARY</value>
+                  <value type="string" key="indexType">BTREE</value>
+                  <value type="int" key="isPrimary">1</value>
+                  <value type="string" key="name">PRIMARY</value>
+                  <value type="string" key="oldName">PRIMARY</value>
+                  <value type="string" key="owner" option="ref">{BA854FF3-EDE6-4AD9-8CEA-DF87B217E197}</value>
+                  <value type="int" key="unique">1</value>
+                </value>
+              </value>
+              <value type="int" key="isTemporary">0</value>
+              <value type="string" key="name">type_article</value>
+              <value type="string" key="nextAutoInc">6</value>
+              <value type="string" key="oldName">type_article</value>
+              <value type="string" key="owner" option="ref">{1D7DB9D6-2E1C-4F27-9BEB-38ECBF303F4F}</value>
+              <value type="string" key="primaryKey" option="ref">{681AAF00-D7EE-461F-B504-4D709EEF5F5F}</value>
+              <value type="string" key="rowFormat">Compact</value>
+              <value type="string" key="sql">CREATE TABLE `type_article` (
+  `idtype_article` int(10) unsigned NOT NULL auto_increment,
+  `nom` varchar(45) NOT NULL,
+  PRIMARY KEY  (`idtype_article`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1</value>
+              <value type="string" key="tableEngine">InnoDB</value>
+              <value type="list" content-type="dict" content-struct-name="db.mysql.Trigger" key="triggers"/>
+            </value>
+          </value>
+          <value type="list" content-type="dict" content-struct-name="db.mysql.View" key="views"/>
+        </value>
+      </value>
+      <value type="list" content-type="string" content-struct-name="db.SimpleDatatype" key="simpleDatatypes" option="ref">
+        <value type="string">{3C75C19F-FCA4-44DE-8881-F477FEA32E62}</value>
+        <value type="string">{B98335A2-603F-4042-9D59-88248D987309}</value>
+        <value type="string">{A5A2A320-DAAD-416E-862C-FAA9AD90DF8C}</value>
+        <value type="string">{014AB6FC-CA8A-4FA2-8BD9-E97D7F8D53AE}</value>
+        <value type="string">{B96B522A-48FE-431F-A0B4-D5E1B733FE3F}</value>
+        <value type="string">{BEA67203-20CC-4A53-A4EC-B2F31E84DE1E}</value>
+        <value type="string">{3873BD96-9C60-4BB0-90B4-45F4C76485D9}</value>
+        <value type="string">{8CB74E5F-921A-4F6E-95C6-3AD94F2BB36F}</value>
+        <value type="string">{4B160881-85B7-4C25-BBD1-36C9CA1A0E80}</value>
+        <value type="string">{7198A7BD-968D-4BD9-B85C-4DE7504F0D83}</value>
+        <value type="string">{4159AB8E-78E7-41E7-AAFD-0DE3766C2935}</value>
+        <value type="string">{CD41C6AA-4BAC-42E8-A4FC-655CAE3534D0}</value>
+        <value type="string">{B965148B-8E5B-46E9-999C-252D92B37B2C}</value>
+        <value type="string">{52734DB8-D81D-4593-A74C-891967DFAC63}</value>
+        <value type="string">{7874D9C1-0F91-487C-822C-3ABC407452BE}</value>
+        <value type="string">{BFDB5048-852A-4985-8772-5123FB7C23FE}</value>
+        <value type="string">{D2A508F3-9636-400D-816E-68E0A172204C}</value>
+        <value type="string">{6A28850F-C54C-4722-80A0-6187798B35C0}</value>
+        <value type="string">{EBCCD9D0-1497-4EEE-97FC-0C96DB3D2EBE}</value>
+        <value type="string">{6C2E3841-EA8D-48E1-A727-B0B2E71857BF}</value>
+        <value type="string">{9A2399C8-F3EA-4B6C-AAB1-830D3BFF164B}</value>
+        <value type="string">{E3ACD2FE-A26F-4BB8-ADA6-433F92B0570D}</value>
+        <value type="string">{65642303-376E-4C4A-B200-7E0DFAA47344}</value>
+        <value type="string">{868AC4F9-F4BB-44AD-8512-4EBAD5E5D661}</value>
+        <value type="string">{D8A1FD40-794F-464E-8E4A-E14C38D9C924}</value>
+        <value type="string">{DC0345B1-52D4-497C-AFA1-17A00BCAA7FE}</value>
+        <value type="string">{739D4BC4-0188-46BB-84AB-DB97CE01B67F}</value>
+        <value type="string">{50C760E2-97A4-4BB0-ABA5-E0A2D11E683D}</value>
+        <value type="string">{86A060EB-F367-4890-8FFA-00840F281791}</value>
+        <value type="string">{04006513-2EA3-4785-A541-8C25E68E5E0A}</value>
+        <value type="string">{1D1FE4C9-6A0B-423C-A048-8830C430A93E}</value>
+        <value type="string">{E1609E12-9B2A-4EF7-9265-00D6D3BE0026}</value>
+        <value type="string">{855F4FED-94F7-4E28-812C-6882B28571AF}</value>
+        <value type="string">{F496575F-5F75-4825-A059-7DFC75DB3DFD}</value>
+        <value type="string">{D442887A-6402-4873-ADC5-6F875085C0A6}</value>
+        <value type="string">{D8F350D8-9522-478F-9233-28C52E26A067}</value>
+      </value>
+      <value type="dict" struct-name="db.Version" key="version">
+        <value type="string" key="_id">{F89E08AA-4656-4484-8D7A-A5770155CB8A}</value>
+        <value type="int" key="major">5</value>
+        <value type="int" key="minor">1</value>
+        <value type="string" key="name">Version</value>
+        <value type="string" key="owner" option="ref">{212E4FA9-82E1-4945-BCA5-293B32D994F5}</value>
+        <value type="int" key="release">6</value>
+      </value>
+    </value>
+    <value type="dict" struct-name="db.mgmt.Connection" key="connection">
+      <value type="string" key="_id">{C207B2F2-8D2B-4B32-81B3-C692D5B35A00}</value>
+      <value type="string" key="driver" option="ref">{D65C7567-0B84-4AC6-A1A4-0A4BB8C9F3F2}</value>
+      <value type="dict" key="modules">
+        <value type="string" key="MigrationModule">MigrationGeneric</value>
+        <value type="string" key="QueryModule">QueryMysql</value>
+        <value type="string" key="ReverseEngineeringModule">ReverseEngineeringMysql</value>
+        <value type="string" key="TransformationModule">TransformationMysql</value>
+      </value>
+      <value type="string" key="name"></value>
+      <value type="dict" content-type="string" key="parameterValues">
+        <value type="string" key="host">localhost</value>
+        <value type="string" key="password">une</value>
+        <value type="string" key="port">3306</value>
+        <value type="string" key="socket"></value>
+        <value type="string" key="useAnsiQuotes">0</value>
+        <value type="string" key="useCompression">0</value>
+        <value type="string" key="useSSL">0</value>
+        <value type="string" key="username">root</value>
+      </value>
+    </value>
+    <value type="dict" key="customData"/>
+    <value type="dict" struct-name="db.workbench.Model" key="model">
+      <value type="string" key="_id">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+      <value type="string" key="currentView" option="ref">{FB878925-3765-477B-8D7D-9347400A176D}</value>
+      <value type="list" content-type="dict" content-struct-name="model.Marker" key="markers">
+        <value type="dict" struct-name="model.Marker">
+          <value type="string" key="_id">{6CFF0BF5-E7F1-4037-AA7F-1520A1985F6A}</value>
+          <value type="string" key="name">Marker10</value>
+          <value type="string" key="view" option="ref">{FB878925-3765-477B-8D7D-9347400A176D}</value>
+          <value type="int" key="x">0</value>
+          <value type="int" key="y">0</value>
+          <value type="real" key="zoom">0.750000</value>
+        </value>
+      </value>
+      <value type="dict" struct-name="db.workbench.ModelInfo" key="properties">
+        <value type="string" key="_id">{05E31B7A-0C0F-481F-8473-A8FA0FA82107}</value>
+        <value type="string" key="author"></value>
+        <value type="string" key="dateChanged">Jan 21, 2011</value>
+        <value type="string" key="dateCreated">Jan 21, 2011</value>
+        <value type="string" key="description"></value>
+        <value type="string" key="modelName">New Model</value>
+        <value type="string" key="name">Properties</value>
+        <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+        <value type="string" key="project">Name of the project</value>
+        <value type="string" key="version">1.0</value>
+      </value>
+      <value type="list" content-type="dict" content-struct-name="model.View" key="views">
+        <value type="dict" struct-name="db.workbench.View">
+          <value type="string" key="_id">{FB878925-3765-477B-8D7D-9347400A176D}</value>
+          <value type="string" key="connectionLayoutClass"></value>
+          <value type="string" key="description"></value>
+          <value type="string" key="elementLayoutClass"></value>
+          <value type="list" content-type="dict" content-struct-name="model.Element" key="elements">
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{05F341C4-E6B8-424F-8BAF-BC8A4150744C}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">50.000000</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">525.117188</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">article</value>
+              <value type="string" key="table" option="ref">{137E172C-08DD-4C0E-9D48-7329EAC9E1B4}</value>
+              <value type="real" key="top">242.941177</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">159.999969</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{0BBA232C-AB50-4299-9B06-1F4A5C44A1EE}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">49.999969</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">38.060913</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">categorie_article</value>
+              <value type="string" key="table" option="ref">{94A12003-A234-40F8-A7A0-A7DF5671740C}</value>
+              <value type="real" key="top">475.060547</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">159.999996</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{11B636BF-655B-4EA6-BCBB-4727F32E05F3}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">50.000000</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">220.666687</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">client</value>
+              <value type="string" key="table" option="ref">{51472448-78E2-4CC8-8C03-CBB79AF676F7}</value>
+              <value type="real" key="top">640.129028</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{495F4DE6-A207-4DB8-B43A-C8580BD1BE77}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">50.000000</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">1045.683960</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">compte</value>
+              <value type="string" key="table" option="ref">{7DD7793B-5AA6-4257-873D-B68F06590E82}</value>
+              <value type="real" key="top">737.016846</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{862CF2A6-FA72-400E-AA32-E9DF5DF0BADA}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">50.000000</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">987.439819</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">facture</value>
+              <value type="string" key="table" option="ref">{EE6EBE7F-A069-49CA-98E7-420D75584B15}</value>
+              <value type="real" key="top">256.633270</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{95C3579B-69C6-4D81-9670-590265BCF7D9}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">50.000002</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">112.979416</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">mesure</value>
+              <value type="string" key="table" option="ref">{27110459-8938-43DC-9210-7D0D54FF0F03}</value>
+              <value type="real" key="top">54.606491</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">159.999985</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{28AABFF7-8B2C-42B9-9258-0532AA883D5D}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">49.999999</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">778.966125</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">modele</value>
+              <value type="string" key="table" option="ref">{5B1088B6-AFBA-4BE4-838E-D70910B43C0C}</value>
+              <value type="real" key="top">22.908018</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{2B8EB38D-B95B-434F-AA24-487A112524F9}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">307.999969</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">1308.200928</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">mouvement_compte</value>
+              <value type="string" key="table" option="ref">{F5C556E8-0EA2-4371-859C-2449CE9268E9}</value>
+              <value type="real" key="top">431.919495</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">214.666748</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{96F031E5-3243-476C-AF60-AB6CCAEE1A52}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">178.000000</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">1267.636353</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">payement_mode</value>
+              <value type="string" key="table" option="ref">{A273ADBD-D03D-4BBB-A58A-C1854B81D8DC}</value>
+              <value type="real" key="top">20.666672</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">194.666626</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{E6FACFDF-E7E6-406D-946E-97E7CB2C1AF5}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">50.000000</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">631.333313</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">sequence</value>
+              <value type="string" key="table" option="ref">{21B31C66-9DF2-4395-A947-B5071C692D23}</value>
+              <value type="real" key="top">775.016968</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.TableElement">
+              <value type="string" key="_id">{94568CE0-1F0A-4DC1-9794-5AFBEE509485}</value>
+              <value type="string" key="color"></value>
+              <value type="int" key="columnsExpanded">1</value>
+              <value type="int" key="enabled">0</value>
+              <value type="int" key="expanded">1</value>
+              <value type="int" key="foreignKeysExpanded">0</value>
+              <value type="string" key="group" option="ref"></value>
+              <value type="real" key="height">50.000000</value>
+              <value type="int" key="indicesExpanded">0</value>
+              <value type="string" key="layer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="layoutClass"></value>
+              <value type="real" key="left">849.712097</value>
+              <value type="int" key="locked">0</value>
+              <value type="string" key="name">type_article</value>
+              <value type="string" key="table" option="ref">{BA854FF3-EDE6-4AD9-8CEA-DF87B217E197}</value>
+              <value type="real" key="top">544.847900</value>
+              <value type="int" key="triggersExpanded">1</value>
+              <value type="int" key="visible">1</value>
+              <value type="real" key="width">160.000000</value>
+            </value>
+          </value>
+          <value type="real" key="height">7000.000000</value>
+          <value type="list" content-type="dict" content-struct-name="model.Layer" key="layers">
+            <value type="dict" struct-name="db.workbench.Layer">
+              <value type="string" key="_id">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+              <value type="string" key="color"></value>
+              <value type="string" key="description"></value>
+              <value type="list" content-type="string" content-struct-name="model.Element" key="elements" option="ref">
+                <value type="string">{05F341C4-E6B8-424F-8BAF-BC8A4150744C}</value>
+                <value type="string">{0BBA232C-AB50-4299-9B06-1F4A5C44A1EE}</value>
+                <value type="string">{11B636BF-655B-4EA6-BCBB-4727F32E05F3}</value>
+                <value type="string">{495F4DE6-A207-4DB8-B43A-C8580BD1BE77}</value>
+                <value type="string">{862CF2A6-FA72-400E-AA32-E9DF5DF0BADA}</value>
+                <value type="string">{95C3579B-69C6-4D81-9670-590265BCF7D9}</value>
+                <value type="string">{28AABFF7-8B2C-42B9-9258-0532AA883D5D}</value>
+                <value type="string">{2B8EB38D-B95B-434F-AA24-487A112524F9}</value>
+                <value type="string">{96F031E5-3243-476C-AF60-AB6CCAEE1A52}</value>
+                <value type="string">{E6FACFDF-E7E6-406D-946E-97E7CB2C1AF5}</value>
+                <value type="string">{94568CE0-1F0A-4DC1-9794-5AFBEE509485}</value>
+              </value>
+              <value type="int" key="enabled">0</value>
+              <value type="list" content-type="dict" content-struct-name="model.Group" key="groups"/>
+              <value type="real" key="height">0.000000</value>
+              <value type="real" key="left">0.000000</value>
+              <value type="string" key="name">root</value>
+              <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+              <value type="list" content-type="string" content-struct-name="model.Layer" key="subLayers" option="ref"/>
+              <value type="real" key="top">0.000000</value>
+              <value type="int" key="visible">0</value>
+              <value type="real" key="width">0.000000</value>
+            </value>
+          </value>
+          <value type="string" key="name">Main View</value>
+          <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+          <value type="list" content-type="dict" content-struct-name="db.workbench.Relationship" key="relationships">
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{8C82212B-6FEE-40AE-A13D-F5419E6A4FA8}</value>
+              <value type="string" key="caption">FK_article_2</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">30.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{05F341C4-E6B8-424F-8BAF-BC8A4150744C}</value>
+              <value type="string" key="name">client_article</value>
+              <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{11B636BF-655B-4EA6-BCBB-4727F32E05F3}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{E525B90E-8751-4111-B9F8-323BC19B6533}</value>
+              <value type="string" key="caption">FK_article_3</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">30.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{05F341C4-E6B8-424F-8BAF-BC8A4150744C}</value>
+              <value type="string" key="name">modele_article</value>
+              <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{28AABFF7-8B2C-42B9-9258-0532AA883D5D}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{FDEA4DB5-C4AF-492F-9262-D119E79BCB10}</value>
+              <value type="string" key="caption">FK_article_4</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">30.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{05F341C4-E6B8-424F-8BAF-BC8A4150744C}</value>
+              <value type="string" key="name">type_article_article</value>
+              <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{94568CE0-1F0A-4DC1-9794-5AFBEE509485}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{A3AA909E-42CE-45F1-B027-E439D36216E0}</value>
+              <value type="string" key="caption">FK_article_5</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">30.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{05F341C4-E6B8-424F-8BAF-BC8A4150744C}</value>
+              <value type="string" key="name">mesure_article</value>
+              <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{95C3579B-69C6-4D81-9670-590265BCF7D9}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{8D70BC3E-7FF9-486E-A3D6-0EA87FFB225E}</value>
+              <value type="string" key="caption">FK_article_6</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">30.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{05F341C4-E6B8-424F-8BAF-BC8A4150744C}</value>
+              <value type="string" key="name">facture_article</value>
+              <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{862CF2A6-FA72-400E-AA32-E9DF5DF0BADA}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{BF7460EA-3C25-43F4-AADF-ECDCF077E8E0}</value>
+              <value type="string" key="caption">FK_article_8</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">30.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{05F341C4-E6B8-424F-8BAF-BC8A4150744C}</value>
+              <value type="string" key="name">categorie_article_article</value>
+              <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{0BBA232C-AB50-4299-9B06-1F4A5C44A1EE}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{33DBABC0-1AA2-4BE4-8C65-7F3C072466BA}</value>
+              <value type="string" key="caption">FK_facture_1</value>
+              <value type="real" key="captionXOffs">6.666626</value>
+              <value type="real" key="captionYOffs">74.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{862CF2A6-FA72-400E-AA32-E9DF5DF0BADA}</value>
+              <value type="string" key="name">payement_mode_facture</value>
+              <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{96F031E5-3243-476C-AF60-AB6CCAEE1A52}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{E6273BEB-20F9-437F-9E59-61C156CDE839}</value>
+              <value type="string" key="caption">FK_mouvement_compte_1</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">30.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{2B8EB38D-B95B-434F-AA24-487A112524F9}</value>
+              <value type="string" key="name">compte_mouvement_compte</value>
+              <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{495F4DE6-A207-4DB8-B43A-C8580BD1BE77}</value>
+            </value>
+            <value type="dict" struct-name="db.workbench.Relationship">
+              <value type="string" key="_id">{202E6842-C3C4-4405-9BC6-331F2D66BFE4}</value>
+              <value type="string" key="caption">FK_mouvement_compte_2</value>
+              <value type="real" key="captionXOffs">0.000000</value>
+              <value type="real" key="captionYOffs">30.000000</value>
+              <value type="string" key="comment"></value>
+              <value type="string" key="endCaption"></value>
+              <value type="real" key="endCaptionXOffs">0.000000</value>
+              <value type="real" key="endCaptionYOffs">0.000000</value>
+              <value type="int" key="endMandatory">1</value>
+              <value type="int" key="endMany">1</value>
+              <value type="string" key="endTable" option="ref">{2B8EB38D-B95B-434F-AA24-487A112524F9}</value>
+              <value type="string" key="name">facture_mouvement_compte</value>
+              <value type="string" key="owner" option="ref">{1D8B83A2-9B72-4E35-A47F-50197768397C}</value>
+              <value type="string" key="startCaption"></value>
+              <value type="real" key="startCaptionXOffs">0.000000</value>
+              <value type="real" key="startCaptionYOffs">0.000000</value>
+              <value type="int" key="startMandatory">1</value>
+              <value type="int" key="startMany">0</value>
+              <value type="string" key="startTable" option="ref">{862CF2A6-FA72-400E-AA32-E9DF5DF0BADA}</value>
+            </value>
+          </value>
+          <value type="string" key="rootLayer" option="ref">{91EEE8D5-A72E-480B-856F-BD8C35361ECA}</value>
+          <value type="list" content-type="dict" content-struct-name="model.Element" key="selection"/>
+          <value type="real" key="width">10000.000000</value>
+          <value type="real" key="x">0.000000</value>
+          <value type="real" key="y">0.000000</value>
+          <value type="real" key="zoom">1.000000</value>
+        </value>
+      </value>
+    </value>
+    <value type="string" key="name">Workbench</value>
+    <value type="string" key="rdbms" option="ref">{6D75781B-52CF-4252-9B3D-9F28B75C09F7}</value>
+    <value type="int" key="version">2</value>
+  </value>
+</data>

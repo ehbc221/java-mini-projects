@@ -1,0 +1,50 @@
+package jeux.parties;
+import java.util.*;
+import jeux.mains.*;
+import jeux.plis.*;
+import jeux.cartes.*;
+import jeux.encheres.*;
+/**Indique si une partie est faite de plis*/
+public interface Levable {
+	public void initPartie();
+	public void ajouterPliEnCours();
+	//public Pli getPliEnCours();
+	public Main empiler();
+	public void setPliEnCours();
+	//public void setPlis();
+	//public byte nombreDeTours();
+	public void setEntameur();
+	public byte getEntameur();
+	public byte getRamasseur();
+	public void setEntameur(byte i);
+	//public void setRamasseur(byte i);
+	public void simuler();
+	public boolean autorise(Carte carte,String[] raison);
+	public boolean premierTour();
+	public Pli getPliEnCours();
+	public void setPreneur(byte ppreneur);
+	public byte getPreneur();
+	public Vector<Pli> unionPlis();
+	public Contrat getContrat();
+	public Vector<Contrat> tous_contrats();
+	public byte ramasseur(Vector<Pli> plis_faits,byte numero_pli);
+	public void setContrat(Contrat pcontrat);
+	public Contrat strategieContrat(String[] raison);
+	//public void initAnnonces();
+	//public boolean annoncesInitialisees();
+	public void setAnnonces(byte b,Vector<Annonce> ann);
+	public Vector<Annonce> getAnnonces(byte numero);
+	public void ajouterAnnonces(byte b,Vector<Annonce> ann);
+	public void ajouterUneCarteDansPliEnCours(Carte c);
+	//Vector<Byte> tours(byte couleur,Vector<Pli> plis_faits);
+	public Vector<Pli> getPlisAttaque();
+	public Vector<Pli> getPlisDefense();
+	//public Vector<Pli> getPlis(byte numero);
+	//public Vector<Annonce> strategieAnnonces(byte numeroJoueur,String[] raison);
+	public Carte strategieJeuCarteUnique(String[] raison);
+	/**Appel*/
+	public Carte getCarteAppelee();
+	public void setCarteAppelee(Carte carte);
+	public void restituerMainsDepartRejouerDonne(Vector<Pli> plis_faits,byte nombre_joueurs);
+	public int max_contrat();
+}

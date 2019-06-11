@@ -1,0 +1,42 @@
+
+        _________ _ ___._____________________________.___ _ ___________
+       |                                                               |
+       |       		SYSTEME DE GESTION DE DONNEES TECHNIQUES           |
+       |                           			                           |
+       | date    : 08, JUL 2011 : 18h28mn 							   |
+	   | size of jar file  : 271 ko   								   |
+	   | size project folder  : 8.78 Mb								   |
+       | os      : WinAll x86/x64/Linux/Mac OS  language : French      |
+       | protection : None	                                           |
+       |_______________________________________________________________|
+       :     ___________________________________________________	   :
+	   :    |	_____________________________________________	|	   :
+       :    |       PROJET REALISE PAR IBRAHIMA COUNDOUL        |	   :
+	   :	|	_____________________________________________	|	   :
+   ._  |    |___________________________________________________|      |  _.
+   |/  |                                                               |  \|
+   < __             					[]				                __ >
+    \  |                                                               |  /
+     \ |  													     	   | /
+      \|  												               |/
+	   |	1. Ouvrir le dossier "Projet_SJQ07\DataBase" 		   	   |
+	   |															   |
+	   |	2. Attacher la base de données 							   |
+	   |	   "SJQ07_M1.mdf " au serveur de base de donn‚es		   |
+       |															   |
+	   |	3. Ouvrir le fichier "database.properties" situ‚ dans 	   |
+	   |		le repertoire "Projet_SJQ07\Gestion_Stock"			   |
+	   |		pour verifier les parametres de						   |
+	   |		connexion a la base de donn‚es						   |
+       |															   |
+	   |	4. Ouvrir le repertoire "Projet_SJQ07\Gestion_Stock\dist"  |
+	   |		cliquer sur le fichier jar "Gerer_Application.jar"     |
+       |                                                             __|__ 
+       |_                      E n j o y . . .                      /\    \
+       |_|_____________________________________________________  __/  \____\
+                                                                /\ \  /    /
+         :::::::::::::::: [ ___________________ ] :::::::::::  /  \_\/____/
+        _ ____________________________________________________ \  /    /\  \
+       |_|                                                      \/____/  \__\
+       |   					coundoul554@hotmail.com    			/\    \  /  /
+       |_______________________________________________________/  \____\/__/

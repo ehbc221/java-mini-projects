@@ -1,0 +1,5 @@
+1;fraise;1;strawberry.gif
+2;poire;2;pear.gif
+3;raisin;2;grapes.gif
+4;banane;2;banana.gif
+5;broccoli;4;broccoli.gif

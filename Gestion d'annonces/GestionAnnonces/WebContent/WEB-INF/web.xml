@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>GestionAnnonces</display-name>
+<servlet>
+	<servlet-name>webannonces</servlet-name>
+ 	
+ 	<servlet-class>
+ 		Annonces.webannonces
+ 	</servlet-class>
+ 	
+ 	<init-param>
+ 		<param-name>admin</param-name>
+ 		<param-value>
+ 			/admin.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>consulter</param-name>
+ 		<param-value>
+ 			consulter.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>profil</param-name>
+ 		<param-value>
+ 			monprofil.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+	<init-param>
+ 		<param-name>inscription</param-name>
+ 		<param-value>
+ 			/inscription.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>publier</param-name>
+ 		<param-value>
+ 			/publier.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>addimmobilier</param-name>
+ 		<param-value>
+ 			/typeannonceapublier/immobilier.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>addvehicule</param-name>
+ 		<param-value>
+ 			/typeannonceapublier/vehicule.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>addemploi</param-name>
+ 		<param-value>
+ 			/typeannonceapublier/emploi.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>addautres</param-name>
+ 		<param-value>
+ 			/typeannonceapublier/autres.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>addservice</param-name>
+ 		<param-value>
+ 			/typeannonceapublier/service.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>ListeUser</param-name>
+ 		<param-value>
+ 			/administration/listeuser.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>AdminImmobilier</param-name>
+ 		<param-value>
+ 			/administration/annonces/immobilier.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>AdminVehicule</param-name>
+ 		<param-value>
+ 			/administration/annonces/vehicule.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>AdminService</param-name>
+ 		<param-value>
+ 			/administration/annonces/service.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>AdminAutres</param-name>
+ 		<param-value>
+ 			/administration/annonces/autres.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>AdminEmploi</param-name>
+ 		<param-value>
+ 			/administration/annonces/emploi.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>ConsulterImmobilier</param-name>
+ 		<param-value>
+ 			/typeannonceaconsulter/immobilier.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>ConsulterVehicule</param-name>
+ 		<param-value>
+ 			/typeannonceaconsulter/vehicule.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>ConsulterService</param-name>
+ 		<param-value>
+ 			/typeannonceaconsulter/service.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>ConsulterEmploi</param-name>
+ 		<param-value>
+ 			/typeannonceaconsulter/emploi.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>ConsulterAutres</param-name>
+ 		<param-value>
+ 			/typeannonceaconsulter/autres.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>MonCompte</param-name>
+ 		<param-value>
+ 			/monprofil/moncompte.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	<init-param>
+ 		<param-name>MesAnnonces</param-name>
+ 		<param-value>
+ 			/monprofil/mesannonces.jsp
+ 		</param-value>
+ 	</init-param>
+ 	
+ 	
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>webannonces</servlet-name>
+ 	<url-pattern>/webannonces</url-pattern>
+</servlet-mapping>
+ 
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

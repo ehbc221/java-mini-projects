@@ -1,0 +1,18 @@
+interface FileInterfaceClient
+{
+	typedef sequence<octet> Data;
+
+	boolean askReceiveFile(in string hostName, in string fileName, in unsigned long fileSize);
+	void receiveFile(in string hostName, in string fileName, in Data fileData);
+	void receiveFilePart(in string hostName, in string fileName, in boolean notFirstPart, in Data fileData);
+};
+
+interface FileInterfaceServer
+{
+	typedef sequence<string> UserList;
+
+	UserList getUserList();
+	void subscribe(in string userSring, in string hostName);
+	void unsubscribe(in string hostName);
+	string getUserString(in string hostName);
+};

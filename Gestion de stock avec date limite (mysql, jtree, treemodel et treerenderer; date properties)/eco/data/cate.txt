@@ -1,0 +1,4 @@
+1;fruit;apple.gif
+2;legume;broccoli.gif
+3;viande;broccoli.gif
+4;poisson;banana.gif

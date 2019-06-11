@@ -1,0 +1,110 @@
+CREATE DATABASE `dbannonce` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+
+DROP TABLE IF EXISTS `dbannonce`.`categorie_user`;
+CREATE TABLE  `dbannonce`.`categorie_user` (
+  `IdCat` int(10) unsigned NOT NULL,
+  `Categorie` varchar(45) NOT NULL,
+  PRIMARY KEY  (`IdCat`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+Insert Into dbannonce.categorie_user values(1,'Administrateur');
+Insert Into dbannonce.categorie_user values(2,'Utilisateur');
+
+
+DROP TABLE IF EXISTS `dbannonce`.`user`;
+CREATE TABLE  `dbannonce`.`user` (
+  `IdUser` int(10) unsigned NOT NULL auto_increment,
+  `IdCat` int(10) unsigned NOT NULL,
+  `Nom` varchar(45) NOT NULL,
+  `Prenom` varchar(45) NOT NULL,
+  `NumTel` varchar(45) NOT NULL,
+  `Adresse` varchar(45) NOT NULL,
+  `Email` varchar(45) NOT NULL,
+  `Ville` varchar(45) NOT NULL,
+  `Region` varchar(45) NOT NULL,
+  `Pays` varchar(45) NOT NULL,
+  `Sexe` varchar(45) NOT NULL,
+  `UserName` varchar(45) NOT NULL,
+  `Password` varchar(45) NOT NULL,
+  PRIMARY KEY  (`IdUser`),
+  KEY `FK_user_1` (`IdCat`),
+  CONSTRAINT `FK_user_1` FOREIGN KEY (`IdCat`) REFERENCES `categorie_user` (`IdCat`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+
+Insert Into dbannonce.user (IdCat,Nom,Prenom,NumTel,Adresse,Email,Ville,Region,Pays,Sexe,UserName,Password) values (1,'DAHMANI','Tarik','0676608454','Lot Ennajd', 'tarik.dahmani87@gmail.com','Khenifra','Meknes-Tafilalet','Maroc','Homme','admin','admin');
+
+
+DROP TABLE IF EXISTS `dbannonce`.`annonce`;
+CREATE TABLE  `dbannonce`.`annonce` (
+  `IdAnnonce` int(10) unsigned NOT NULL auto_increment,
+  `IdUser` int(10) unsigned NOT NULL,
+  `TitreAnnonce` varchar(45) NOT NULL,
+  `DateAnnonce` varchar(45) NOT NULL,
+  PRIMARY KEY  (`IdAnnonce`),
+  KEY `FK_annonce_1` (`IdUser`),
+  CONSTRAINT `FK_annonce_1` FOREIGN KEY (`IdUser`) REFERENCES `user` (`IdUser`)
+) ENGINE=InnoDB AUTO_INCREMENT=68 DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `dbannonce`.`autres`;
+CREATE TABLE  `dbannonce`.`autres` (
+  `IdAutres` int(10) unsigned NOT NULL auto_increment,
+  `TypeA` varchar(45) NOT NULL,
+  `IdAnnonce` int(10) unsigned NOT NULL,
+  `TxtA` varchar(500) NOT NULL,
+  PRIMARY KEY  USING BTREE (`IdAutres`),
+  KEY `FK_autres_1` (`IdAnnonce`),
+  CONSTRAINT `FK_autres_1` FOREIGN KEY (`IdAnnonce`) REFERENCES `annonce` (`IdAnnonce`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `dbannonce`.`emploi`;
+CREATE TABLE  `dbannonce`.`emploi` (
+  `IdEmploi` int(10) unsigned NOT NULL auto_increment,
+  `IdAnnonce` int(10) unsigned NOT NULL,
+  `TypeE` varchar(45) NOT NULL,
+  `Salaire` varchar(45) NOT NULL,
+  `Contrat` varchar(45) NOT NULL,
+  `TxtE` varchar(500) NOT NULL,
+  PRIMARY KEY  (`IdEmploi`),
+  KEY `FK_emploi_1` (`IdAnnonce`),
+  CONSTRAINT `FK_emploi_1` FOREIGN KEY (`IdAnnonce`) REFERENCES `annonce` (`IdAnnonce`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `dbannonce`.`immobilier`;
+CREATE TABLE  `dbannonce`.`immobilier` (
+  `IdAI` int(10) unsigned NOT NULL auto_increment,
+  `IdAnnonce` int(10) unsigned NOT NULL,
+  `TypeI` varchar(45) NOT NULL,
+  `Adresse` varchar(45) NOT NULL,
+  `Ville` varchar(45) NOT NULL,
+  `Region` varchar(45) NOT NULL,
+  `Pays` varchar(45) NOT NULL,
+  `TxtI` varchar(500) default NULL,
+  PRIMARY KEY  (`IdAI`),
+  KEY `FK_Immobilier_1` (`IdAnnonce`),
+  CONSTRAINT `FK_Immobilier_1` FOREIGN KEY (`IdAnnonce`) REFERENCES `annonce` (`IdAnnonce`)
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `dbannonce`.`service`;
+CREATE TABLE  `dbannonce`.`service` (
+  `IdService` int(10) unsigned NOT NULL auto_increment,
+  `IdAnnonce` int(10) unsigned NOT NULL,
+  `TypeS` varchar(45) NOT NULL,
+  `TxtS` varchar(500) NOT NULL,
+  PRIMARY KEY  (`IdService`),
+  KEY `FK_service_1` (`IdAnnonce`),
+  CONSTRAINT `FK_service_1` FOREIGN KEY (`IdAnnonce`) REFERENCES `annonce` (`IdAnnonce`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+DROP TABLE IF EXISTS `dbannonce`.`vehicule`;
+CREATE TABLE  `dbannonce`.`vehicule` (
+  `IdVehicule` int(10) unsigned NOT NULL auto_increment,
+  `IdAnnonce` int(10) unsigned NOT NULL,
+  `Marque` varchar(45) NOT NULL,
+  `Modele` varchar(45) NOT NULL,
+  `TypeV` varchar(45) NOT NULL,
+  `TxtV` varchar(500) NOT NULL,
+  PRIMARY KEY  (`IdVehicule`),
+  KEY `FK_vehicule_1` (`IdAnnonce`),
+  CONSTRAINT `FK_vehicule_1` FOREIGN KEY (`IdAnnonce`) REFERENCES `annonce` (`IdAnnonce`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtNumClient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="25px"
+        android:text="Num." />
+		
+	<TextView 
+	    android:text="Nom" 
+	    android:id="@+id/txtNomClient"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="80px"
+		android:maxWidth="100px"
+		android:layout_marginTop="-25px" />
+	
+	<TextView 
+	    android:text="Prénom" 
+	    android:id="@+id/txtPrenomClient"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="180px"
+		android:layout_marginTop="-28px"
+		android:maxWidth="100px" />
+	
+	<TextView 
+	    android:text="Adresse" android:id="@+id/txtAdresse"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="280px"
+		android:layout_marginTop="-28px"
+		android:maxWidth="100px" />
+	
+	<TextView 
+	    android:text="Agence" 
+	    android:id="@+id/txtNomAgenceClient"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="380px"
+		android:layout_marginTop="-25px"
+		android:maxWidth="100px" />		
+    
+
+</LinearLayout>

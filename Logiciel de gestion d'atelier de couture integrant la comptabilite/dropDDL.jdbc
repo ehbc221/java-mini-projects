@@ -1,0 +1,23 @@
+ALTER TABLE couturedb.facture DROP FOREIGN KEY FK_facture_idpayement_mode
+ALTER TABLE couturedb.mouvement_compte DROP FOREIGN KEY FK_mouvement_compte_idcompte
+ALTER TABLE couturedb.mouvement_compte DROP FOREIGN KEY FK_mouvement_compte_idfacture
+ALTER TABLE couturedb.article DROP FOREIGN KEY FK_article_idtype_article
+ALTER TABLE couturedb.article DROP FOREIGN KEY FK_article_idfacture
+ALTER TABLE couturedb.article DROP FOREIGN KEY FK_article_idmesure
+ALTER TABLE couturedb.article DROP FOREIGN KEY FK_article_idmodele
+ALTER TABLE couturedb.article DROP FOREIGN KEY FK_article_idclient
+ALTER TABLE couturedb.article DROP FOREIGN KEY FK_article_idcategorie
+DROP TABLE couturedb.facture
+DROP TABLE couturedb.client
+DROP TABLE couturedb.modele
+DROP TABLE REPORT
+DROP TABLE couturedb.mouvement_compte
+DROP TABLE couturedb.type_article
+DROP TABLE couturedb.article
+DROP TABLE couturedb.compte
+DROP TABLE couturedb.sequence
+DROP TABLE couturedb.payement_mode
+DROP TABLE NEWENTITY
+DROP TABLE couturedb.mesure
+DROP TABLE couturedb.categorie_article
+DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'

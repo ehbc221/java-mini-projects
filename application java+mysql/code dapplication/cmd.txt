@@ -1,0 +1,16 @@
+show databases
+
+create database etude ;
+use etude;
+
+Create Table etudient (id INT 
+,Nom VARCHAR(50),Prenom VARCHAR(50),
+branche VARCHAR(50),note INT);
+
+describe Personnes ;
+il dois etre auto increment pour afficher le message 
+
+okk merci 
+
+à la prochain tuto  :) 
+
